@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_core.documents import Document
 from langchain_chroma import Chroma
 
 # Make sure local imports work when running:
@@ -15,7 +16,7 @@ if str(CURRENT_DIR) not in sys.path:
     sys.path.insert(0, str(CURRENT_DIR))
 
 from reranker import CrossEncoderReranker
-
+from bm25_retriever import BM25ChunkRetriever
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ENV_PATH = PROJECT_ROOT / ".env"
@@ -54,6 +55,11 @@ class EngineeredRAG:
         print(f"Has chunk_type metadata: {self.has_chunk_type}")
 
         self.reranker = CrossEncoderReranker()
+
+        self.bm25_retriever = BM25ChunkRetriever(
+            chunk_store=self.chunk_store,
+            has_chunk_type=self.has_chunk_type,
+        )
 
     # ------------------------------------------------------------------
     # Loading components
@@ -271,28 +277,69 @@ class EngineeredRAG:
 
         return unique_docs
 
+    @staticmethod
+    def _merge_candidate_docs(*doc_lists):
+        """
+        Merge dense and BM25 candidates.
+
+        If the same chunk appears in multiple retrieval results, merge metadata
+        such as vector_score, bm25_score, and reranker_score.
+        """
+        merged = {}
+
+        for docs in doc_lists:
+            for doc in docs:
+                key = (
+                    doc.metadata.get("source"),
+                    doc.metadata.get("page"),
+                    doc.metadata.get("chunk_id"),
+                )
+
+                if key not in merged:
+                    merged[key] = Document(
+                        page_content=doc.page_content,
+                        metadata=dict(doc.metadata),
+                    )
+                else:
+                    merged[key].metadata.update(doc.metadata)
+
+        return list(merged.values())
+
     def retrieve_chunks_from_source(self, query, source, k=4, fetch_k=20):
         """
-        Retrieve chunks from one candidate paper, then rerank them.
+        Hybrid retrieval from one candidate paper.
 
-        First-stage retrieval:
-            vector search gets fetch_k candidates.
-
-        Second-stage retrieval:
-            cross-encoder reranker selects top-k chunks.
+        Dense retrieval gets semantic candidates.
+        BM25 retrieval gets keyword candidates.
+        Then both are merged and reranked by the cross-encoder.
         """
         chroma_filter = self.build_chunk_filter(
             source=source,
             chunk_type="main",
         )
 
-        candidate_docs = self.chunk_store.similarity_search(
+        dense_docs_scores = self.chunk_store.similarity_search_with_score(
             query,
             k=fetch_k,
             filter=chroma_filter,
         )
 
-        candidate_docs = self._deduplicate_docs(candidate_docs)
+        dense_docs = []
+
+        for doc, score in dense_docs_scores:
+            doc.metadata["vector_score"] = float(score)
+            dense_docs.append(doc)
+
+        bm25_docs = self.bm25_retriever.search(
+            query=query,
+            k=fetch_k,
+            source_filter=source,
+        )
+
+        candidate_docs = self._merge_candidate_docs(
+            dense_docs,
+            bm25_docs,
+        )
 
         if not candidate_docs:
             return []
@@ -314,10 +361,15 @@ class EngineeredRAG:
         max_per_source=3,
     ):
         """
-        Retrieve chunks from multiple candidate papers and rerank globally.
+        Hybrid retrieval from multiple candidate papers.
 
-        To avoid one paper dominating the result, after reranking we keep at
-        most max_per_source chunks per paper.
+        For each candidate paper:
+            dense retrieval + BM25 retrieval
+
+        Then:
+            merge all candidates
+            global rerank
+            keep at most max_per_source chunks from each paper
         """
         all_candidate_docs = []
 
@@ -332,13 +384,30 @@ class EngineeredRAG:
                 chunk_type="main",
             )
 
-            docs = self.chunk_store.similarity_search(
+            dense_docs_scores = self.chunk_store.similarity_search_with_score(
                 query,
                 k=per_paper_fetch_k,
                 filter=chroma_filter,
             )
 
-            all_candidate_docs.extend(docs)
+            dense_docs = []
+
+            for doc, score in dense_docs_scores:
+                doc.metadata["vector_score"] = float(score)
+                dense_docs.append(doc)
+
+            bm25_docs = self.bm25_retriever.search(
+                query=query,
+                k=per_paper_fetch_k,
+                source_filter=source,
+            )
+
+            merged_docs = self._merge_candidate_docs(
+                dense_docs,
+                bm25_docs,
+            )
+
+            all_candidate_docs.extend(merged_docs)
 
         all_candidate_docs = self._deduplicate_docs(all_candidate_docs)
 
@@ -448,6 +517,8 @@ class EngineeredRAG:
             chunk_id = doc.metadata.get("chunk_id", "unknown")
             chunk_type = doc.metadata.get("chunk_type", "unknown")
             reranker_score = doc.metadata.get("reranker_score", "unknown")
+            vector_score = doc.metadata.get("vector_score", "unknown")
+            bm25_score = doc.metadata.get("bm25_score", "unknown")
 
             block = f"""
 [Source {i}]
@@ -455,6 +526,8 @@ File: {source}
 Page: {page}
 Chunk ID: {chunk_id}
 Chunk Type: {chunk_type}
+Vector Score: {vector_score}
+BM25 Score: {bm25_score}
 Reranker Score: {reranker_score}
 
 Content:
@@ -509,12 +582,17 @@ Content:
             chunk_id = doc.metadata.get("chunk_id", "unknown")
             chunk_type = doc.metadata.get("chunk_type", "unknown")
             reranker_score = doc.metadata.get("reranker_score", "unknown")
+            vector_score = doc.metadata.get("vector_score", "unknown")
+            bm25_score = doc.metadata.get("bm25_score", "unknown")
             preview = doc.page_content[:preview_chars].replace("\n", " ")
 
             print("-" * 80)
             print(
                 f"[Source {i}] {source}, page {page}, chunk {chunk_id}, "
-                f"type={chunk_type}, reranker_score={reranker_score}"
+                f"type={chunk_type}, "
+                f"vector_score={vector_score}, "
+                f"bm25_score={bm25_score}, "
+                f"reranker_score={reranker_score}"
             )
             print(preview)
 
