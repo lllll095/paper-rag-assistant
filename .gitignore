@@ -6,6 +6,7 @@
 !.env.example
 
 chroma_db/
+paper_catalog_db/
 data/papers/
 
 outputs/bad_chunks.txt

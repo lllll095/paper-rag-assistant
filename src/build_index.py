@@ -47,6 +47,52 @@ def clean_metadata(metadata):
 
     return clean_meta
 
+def infer_chunk_type(text):
+    """
+    Infer whether a chunk belongs to main paper text or boilerplate sections.
+    This is used for retrieval filtering.
+    """
+    if text is None:
+        return "empty"
+
+    lower = text.lower()
+
+    checklist_patterns = [
+        "neurips paper checklist",
+        "paper checklist",
+        "do the main claims made in the abstract and introduction accurately reflect",
+        "did you describe the limitations",
+        "did you include the code",
+        "for all authors",
+        "the checklist follows the references",
+        "submission checklist",
+        "reproducibility checklist",
+        "broader impacts",
+    ]
+
+    references_patterns = [
+        "references",
+        "bibliography",
+    ]
+
+    appendix_patterns = [
+        "appendix",
+        "supplementary material",
+        "supplemental material",
+    ]
+
+    if any(pattern in lower for pattern in checklist_patterns):
+        return "checklist"
+
+    # Only mark as references if the chunk starts like a references section.
+    stripped = lower.strip()
+    if stripped.startswith("references") or stripped.startswith("bibliography"):
+        return "references"
+
+    if stripped.startswith("appendix") or stripped.startswith("supplementary material"):
+        return "appendix"
+
+    return "main"
 
 def load_all_pdfs():
     all_docs = []
@@ -109,7 +155,10 @@ def split_documents(docs):
             continue
 
         metadata = clean_metadata(chunk.metadata)
+        chunk_type = infer_chunk_type(text)
+
         metadata["chunk_id"] = len(clean_chunks)
+        metadata["chunk_type"] = chunk_type
 
         clean_chunks.append(
             Document(
