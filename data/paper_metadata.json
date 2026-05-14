@@ -1,0 +1,43 @@
+[
+  {
+    "source": "AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf",
+    "title": "AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees",
+    "aliases": [
+      "AdaDetectGPT",
+      "Adaptive DetectGPT"
+    ],
+    "task": "LLM-generated text detection",
+    "method_type": "statistical detector",
+    "keywords": [
+      "AI-generated text detection",
+      "LLM-generated text detection",
+      "statistical guarantees",
+      "false negative rate",
+      "FNR control",
+      "true negative rate",
+      "TNR",
+      "witness function",
+      "Fast-DetectGPT"
+    ],
+    "summary": "AdaDetectGPT adaptively learns a witness function from external data and provides statistical guarantees for controlling false negative rate in LLM-generated text detection."
+  },
+  {
+    "source": "DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf",
+    "title": "DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature",
+    "aliases": [
+      "DetectGPT"
+    ],
+    "task": "machine-generated text detection",
+    "method_type": "zero-shot detector",
+    "keywords": [
+      "DetectGPT",
+      "probability curvature",
+      "zero-shot detection",
+      "machine-generated text",
+      "log probability",
+      "perturbation",
+      "negative curvature"
+    ],
+    "summary": "DetectGPT detects machine-generated text by using the observation that model-generated passages tend to lie in regions of negative curvature of the model log probability function."
+  }
+]

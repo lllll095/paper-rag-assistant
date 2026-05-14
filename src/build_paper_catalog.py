@@ -7,6 +7,8 @@ from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
+import json
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -16,6 +18,7 @@ CATALOG_DIR = PROJECT_ROOT / "paper_catalog_db"
 CATALOG_COLLECTION_NAME = "paper_catalog_week2"
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 
+METADATA_PATH = PROJECT_ROOT / "data" / "paper_metadata.json"
 
 def clean_text(text):
     if text is None:
@@ -46,6 +49,31 @@ def title_from_filename(pdf_path):
     title = re.sub(r"\s+", " ", title).strip()
     return title
 
+def load_manual_metadata():
+    """
+    Load optional paper-level metadata from data/paper_metadata.json.
+
+    The metadata file is used to improve paper-level routing.
+    """
+    if not METADATA_PATH.exists():
+        print(f"No manual metadata found at {METADATA_PATH}")
+        return {}
+
+    with open(METADATA_PATH, "r", encoding="utf-8") as f:
+        items = json.load(f)
+
+    metadata_map = {}
+
+    for item in items:
+        source = item.get("source")
+        if not source:
+            continue
+
+        metadata_map[source] = item
+
+    print(f"Loaded manual metadata for {len(metadata_map)} papers.")
+
+    return metadata_map
 
 def extract_abstract(first_pages_text):
     """
@@ -96,6 +124,7 @@ def load_first_pages(pdf_path, max_pages=3):
 
 def build_catalog():
     pdf_files = sorted(PAPER_DIR.glob("*.pdf"))
+    manual_metadata = load_manual_metadata()
 
     if not pdf_files:
         raise FileNotFoundError(f"No PDF files found in {PAPER_DIR}")
@@ -114,7 +143,15 @@ def build_catalog():
             print(f"Failed to parse {pdf_path.name}: {e}")
             continue
 
-        title = title_from_filename(pdf_path)
+        manual_item = manual_metadata.get(pdf_path.name, {})
+        
+        title = manual_item.get("title") or title_from_filename(pdf_path)
+        aliases = manual_item.get("aliases", [])
+        task = manual_item.get("task", "")
+        method_type = manual_item.get("method_type", "")
+        keywords = manual_item.get("keywords", [])
+        manual_summary = manual_item.get("summary", "")
+        
         abstract = extract_abstract(first_pages_text)
 
         if abstract:
@@ -129,6 +166,21 @@ Title:
 Source file:
 {pdf_path.name}
 
+Aliases:
+{", ".join(aliases)}
+
+Task:
+{task}
+
+Method type:
+{method_type}
+
+Keywords:
+{", ".join(keywords)}
+
+Manual summary:
+{manual_summary}
+
 Abstract:
 {abstract if abstract else first_pages_text[:2500]}
 
@@ -141,6 +193,10 @@ First pages excerpt:
             "title": title,
             "source": pdf_path.name,
             "has_abstract": bool(abstract),
+            "aliases": ", ".join(aliases),
+            "task": task,
+            "method_type": method_type,
+            "keywords": ", ".join(keywords),
         }
 
         documents.append(

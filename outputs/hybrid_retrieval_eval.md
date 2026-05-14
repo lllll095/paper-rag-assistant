@@ -30,19 +30,19 @@ These should usually be similar because all three settings use the same paper-le
 
 1. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
    - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.3216600716114044`
+   - Paper score: `0.32273662090301514`
 
-2. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
-   - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
-   - Paper score: `0.34038466215133667`
+2. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
+   - Title: Unsupervised and Distributional Detection of Machine Generated Text
+   - Paper score: `0.3335437774658203`
 
 3. `ASurvey of AI-generated Text Forensic Systems Detection Attribution and Characterization.pdf`
    - Title: ASurvey of AI generated Text Forensic Systems Detection Attribution and Characterization
-   - Paper score: `0.34393998980522156`
+   - Paper score: `0.3376709520816803`
 
-4. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
-   - Title: Unsupervised and Distributional Detection of Machine Generated Text
-   - Paper score: `0.3484887182712555`
+4. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
+   - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
+   - Paper score: `0.3487025201320648`
 
 
 ### Selected Papers
@@ -51,57 +51,57 @@ These should usually be similar because all three settings use the same paper-le
 
 1. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
    - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.3216600716114044`
+   - Paper score: `0.32273662090301514`
 
-2. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
-   - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
-   - Paper score: `0.34038466215133667`
+2. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
+   - Title: Unsupervised and Distributional Detection of Machine Generated Text
+   - Paper score: `0.3335437774658203`
 
 3. `ASurvey of AI-generated Text Forensic Systems Detection Attribution and Characterization.pdf`
    - Title: ASurvey of AI generated Text Forensic Systems Detection Attribution and Characterization
-   - Paper score: `0.34393998980522156`
+   - Paper score: `0.3376709520816803`
 
-4. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
-   - Title: Unsupervised and Distributional Detection of Machine Generated Text
-   - Paper score: `0.3484887182712555`
+4. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
+   - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
+   - Paper score: `0.3487025201320648`
 
 
 #### BM25-only Selected Papers
 
 1. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
    - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.3216600716114044`
+   - Paper score: `0.32273662090301514`
 
-2. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
-   - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
-   - Paper score: `0.34038466215133667`
+2. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
+   - Title: Unsupervised and Distributional Detection of Machine Generated Text
+   - Paper score: `0.3335437774658203`
 
 3. `ASurvey of AI-generated Text Forensic Systems Detection Attribution and Characterization.pdf`
    - Title: ASurvey of AI generated Text Forensic Systems Detection Attribution and Characterization
-   - Paper score: `0.34393998980522156`
+   - Paper score: `0.3376709520816803`
 
-4. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
-   - Title: Unsupervised and Distributional Detection of Machine Generated Text
-   - Paper score: `0.3484887182712555`
+4. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
+   - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
+   - Paper score: `0.3487025201320648`
 
 
 #### Hybrid Selected Papers
 
 1. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
    - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.3216600716114044`
+   - Paper score: `0.32273662090301514`
 
-2. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
-   - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
-   - Paper score: `0.34038466215133667`
+2. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
+   - Title: Unsupervised and Distributional Detection of Machine Generated Text
+   - Paper score: `0.3335437774658203`
 
 3. `ASurvey of AI-generated Text Forensic Systems Detection Attribution and Characterization.pdf`
    - Title: ASurvey of AI generated Text Forensic Systems Detection Attribution and Characterization
-   - Paper score: `0.34393998980522156`
+   - Paper score: `0.3376709520816803`
 
-4. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
-   - Title: Unsupervised and Distributional Detection of Machine Generated Text
-   - Paper score: `0.3484887182712555`
+4. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
+   - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
+   - Paper score: `0.3487025201320648`
 
 
 ### Summary Statistics
@@ -534,20 +534,20 @@ These should usually be similar because all three settings use the same paper-le
 #### Hybrid Candidate Papers
 
 1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
-   - Title: AdaDetectGPT Adaptive Detection of LLM Generated Text with Statistical Guarantees
-   - Paper score: `0.6125631332397461`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.6034888029098511`
 
 2. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.7034844160079956`
+   - Paper score: `0.7163678407669067`
 
-3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+3. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.7181804180145264`
+
+4. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.710049569606781`
-
-4. `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-   - Title: GPT who AnInformation Density based Machine Generated Text Detector
-   - Paper score: `0.7131985425949097`
+   - Paper score: `0.731763482093811`
 
 
 ### Selected Papers
@@ -555,58 +555,58 @@ These should usually be similar because all three settings use the same paper-le
 #### Dense-only Selected Papers
 
 1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
-   - Title: AdaDetectGPT Adaptive Detection of LLM Generated Text with Statistical Guarantees
-   - Paper score: `0.6125631332397461`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.6034888029098511`
 
 2. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.7034844160079956`
+   - Paper score: `0.7163678407669067`
 
-3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+3. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.7181804180145264`
+
+4. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.710049569606781`
-
-4. `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-   - Title: GPT who AnInformation Density based Machine Generated Text Detector
-   - Paper score: `0.7131985425949097`
+   - Paper score: `0.731763482093811`
 
 
 #### BM25-only Selected Papers
 
 1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
-   - Title: AdaDetectGPT Adaptive Detection of LLM Generated Text with Statistical Guarantees
-   - Paper score: `0.6125631332397461`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.6034888029098511`
 
 2. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.7034844160079956`
+   - Paper score: `0.7163678407669067`
 
-3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+3. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.7181804180145264`
+
+4. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.710049569606781`
-
-4. `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-   - Title: GPT who AnInformation Density based Machine Generated Text Detector
-   - Paper score: `0.7131985425949097`
+   - Paper score: `0.731763482093811`
 
 
 #### Hybrid Selected Papers
 
 1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
-   - Title: AdaDetectGPT Adaptive Detection of LLM Generated Text with Statistical Guarantees
-   - Paper score: `0.6125631332397461`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.6034888029098511`
 
 2. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.7034844160079956`
+   - Paper score: `0.7163678407669067`
 
-3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+3. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.7181804180145264`
+
+4. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.710049569606781`
-
-4. `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-   - Title: GPT who AnInformation Density based Machine Generated Text Detector
-   - Paper score: `0.7131985425949097`
+   - Paper score: `0.731763482093811`
 
 
 ### Summary Statistics
@@ -614,9 +614,9 @@ These should usually be similar because all three settings use the same paper-le
 | Metric | Dense only | BM25 only | Hybrid + reranker |
 |---|---:|---:|---:|
 | Retrieved chunks | 8 | 8 | 8 |
-| Unique sources | 4 | 3 | 3 |
+| Unique sources | 3 | 3 | 3 |
 | Noisy chunks | 0 | 0 | 0 |
-| Overlap with hybrid | 2 | 0 | 8 |
+| Overlap with hybrid | 1 | 2 | 8 |
 
 ### Source Distribution
 
@@ -624,20 +624,19 @@ These should usually be similar because all three settings use the same paper-le
 
 - `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 3 chunks
 - `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 3 chunks
-- `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`: 1 chunks
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 1 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 2 chunks
 
 #### BM25 only
 
 - `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 3 chunks
-- `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`: 3 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 3 chunks
 - `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 2 chunks
 
 #### Hybrid + reranker
 
-- `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 3 chunks
-- `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 3 chunks
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 2 chunks
+- `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 6 chunks
+- `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 1 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 1 chunks
 
 ### Dense-only Retrieved Chunks
 
@@ -733,32 +732,32 @@ experiments, measuring the detection accuracy in AUROC (see Appendix A). Inferen
 
 ### Retrieved Chunk 7
 
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-- Page: `5`
-- Chunk ID: `2508`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `6`
+- Chunk ID: `1474`
 - Chunk Type: `main`
-- Dense Score: `0.6207282543182373`
-- Vector Score: `0.6207282543182373`
+- Dense Score: `0.61167973279953`
+- Vector Score: `0.61167973279953`
 - BM25 Score: `unknown`
 - Reranker Score: `unknown`
 
 ```text
-ZeroGPT (ZeroGPT, 2023), OpenAI’s detector (So- laiman et al., 2019), Li et al. (2023)’s LongFormer- based detector 7 tuned for the InTheWild bench- mark (we refer to this method as “ITW”), a sty- lometric detector8 (Abbasi and Chen, 2008) and fine-tuned BERT9 (Kenton and Toutanova, 2019). We are unable to report results for exhaustively all methods across all datasets due to inherent inap- plicability in certain task settings. For example, most SOTA text detectors cannot be applied to the ArguGPT dataset as it only contains text written by multiple machines, while most text detectors are designed to differentiate between human-written and machine-generated texts. Beyond such limita- 4https://github.com/eric-mitchell/detect-gpt 5https://github.com/HendrikStrobelt/ detecting-fake-text 6https://github.com/BurhanUlTayyab/GPTZero 7https://github.com/yafuly/DeepfakeTextDetect 8https://github.
+tectGPT maintains detection AUROC above 0.8 even when nearly a quarter of the text in model samples has been re- placed. Unsurprisingly, almost all methods show a gradual degradation in performance as the sample is more heavily revised. The entropy baseline shows surprisingly robust performance in this setting (althought it is least accurate on average), even slightly improving detection performance up to 24% replacement. DetectGPT shows the strongest detection performance for all revision levels. Impact of alternative decoding strategies on detection. While Table 1 suggests that DetectGPT is effective for 5We reduce the number of evaluation samples from 500 in our main experiments to reduce the API costs of these experiments. XSum SQuAD WritingPrompts Method top- p top-k top-p top-k top-p top-k log p(x) 0.92 0.87 0.89 0.85 0.98 0.96 Rank 0.76 0.76 0.81 0.80 0.84 0.83 LogRank 0.93* 0.90*
 ```
 
 ### Retrieved Chunk 8
 
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `2`
-- Chunk ID: `1519`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `7`
+- Chunk ID: `1482`
 - Chunk Type: `main`
-- Dense Score: `0.6309280395507812`
-- Vector Score: `0.6309280395507812`
+- Dense Score: `0.6181098818778992`
+- Vector Score: `0.6181098818778992`
 - BM25 Score: `unknown`
 - Reranker Score: `unknown`
 
 ```text
-of watermarks is also a challenge we need to address. However, with the emergence of ChatGPT, an innovative statistical detection method called DetectGPT [5] has been developed. Its principle is that text generated by the model typically resides in the negative curvature region of the model’s log probability. DetectGPT [ 5] generates and compares multiple variants of model-generated texts to determine whether the texts are machine-generated based on the log probabilities of the original texts and these variants. DetectGPT [5] outperforms the vast majority of existing zero-shot methods in terms of model sample detection, achieving very high AUC. It is based on this concept that DetectGPT-SC was proposed. 3 Methodology Predefined definition X is the original input text. ˆX is the sentence masked within X, which can also be referred to as "<mask>". P ( ˆX) is the mask content predicted by C
+ples. A threshold of slightly below 0.1 separates human and model texts across data distributions, which is important for practical scenarios in which a passage may be analyzed with- out knowing its domain a priori. Finally, Figure 10 shows an analysis of DetectGPT’s performance as a function of pas- sage length. We bin the paired human- and model-generated sequences by their average length into three bins of equal size (bottom/middle/top third), and plot the AUROC within each bin. The relationship between detection performance and passage length generally depends on the dataset and model (or tokenizer). For very long sequences, DetectGPT may see reduced performance because our implementation of DetectGPT applies all T5 mask-filling perturbations at once, and T5 may fail to track many mask tokens at once. By applying perturbations in multiple sequential rounds of smaller numbers of masks
 ```
 
 
@@ -811,32 +810,32 @@ compute the logits – AdaDetectGPT achieves improvements over the best alternat
 
 ### Retrieved Chunk 4
 
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
 - Page: `8`
-- Chunk ID: `2519`
+- Chunk ID: `1488`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `7.457811440833594`
+- BM25 Score: `6.7851942060925765`
 - Reranker Score: `unknown`
 
 ```text
-that human-written text tends to be more non- uniform in comparison to machine-generated text. Hence, machines seem to be spreading in- formation more evenly or smoothly than humans who are more likely to have fluctuations in their surprisal distributions. However, this finding does not imply that humans are not producing uniform text. It is important to note that our work can- not provide support for or refute the UID hypoth- esis which comes from psycholinguistic studies such as those in Section 2.1. Our work shows that, given our operationalization of UID based on prior works, machine text is relatively more uniform than human-written text. While this might seem contra- dictory to UID theory, it does not still disprove that humans are uniform in their language production. We conjecture that this unexpected finding is because we use GPT-2’s probability distribution to calculate surpris
+each candidate passage, rather than just the candidate pas- sage; a better tuned perturbation function or more efficient curvature approximation may help mitigate these costs. Future Work. While the methods in this work make no assumptions about the models generating the samples, fu- ture work may explore how watermarking algorithms can be used in conjunction with detection algorithms like Detect- GPT to further improve detection robustness as language models continually improve their reproductions of human text. Separately, the results in Section 5.2 suggest that ex- tending DetectGPT to use ensembles of models for scoring, rather than a single model, may improve detection in the black box setting. Another topic that remains unexplored is the relationship between prompting and detection; that is, can a clever prompt successfully prevent a model’s gen- erations from being detected by exi
 ```
 
 ### Retrieved Chunk 5
 
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-- Page: `8`
-- Chunk ID: `2521`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `2`
+- Chunk ID: `1445`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `6.474471797791372`
+- BM25 Score: `6.7454281321213605`
 - Reranker Score: `unknown`
 
 ```text
-as per their own language distribution. Irrespective of its alignment with what theory suggests, we find that the UID-based features are very useful in distinguishing authors, which is the focus of this work. This is an important consid- eration and helps disentangle the utility of UID- inspired features from the cognitive plausibility of those feature calculations or UID approximations. Thus, this operationalization of UID does not imply that humans are “less human” or machines are “more human” as it is an approximation of a theory that states that humans are uniform as per their language distribution. It does not have any further implications for machine-generated text and is unable to predict what happens in the case of machines. We find that UID-based features can cap- ture differences between text generated by not only humans and models but also capture differ- ences between multipl
+Zero-Shot Machine-Generated Text Detection using Probability Curvature generated text detection. Other work explores watermarks for generated text (Kirchenbauer et al., 2023), which modify a model’s generations to make them easier to detect. Our work does not assume text is generated with the goal of easy detection; DetectGPT detects text generated from publicly available LLMs using standard LLM sampling strategies. The widespread use of LLMs has led to much other con- temporaneous work on detecting LLM output. Sadasivan et al. (2023) show that the detection AUROC of the an de- tector is upper bounded by a function of the TV distance between the model and human text. However, we find that AUROC of DetectGPT is high even for the largest publicly- available models (Table 2), suggesting that TV distance may not correlate strongly with model scale and capability. This disconnect may be exace
 ```
 
 ### Retrieved Chunk 6
@@ -871,17 +870,17 @@ Running Title for Header masked prediction of text generated by large language m
 
 ### Retrieved Chunk 8
 
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
 - Page: `8`
-- Chunk ID: `2520`
+- Chunk ID: `1489`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `5.122309332336528`
+- BM25 Score: `4.595443475676008`
 - Reranker Score: `unknown`
 
 ```text
-because we use GPT-2’s probability distribution to calculate surprisal, which is potentially a poor approximation of the “human” probability distri- bution. A closer-to-human probability distribution might (or might not) show humans to be more uni- form than machines, though this determination is not within the scope of this work. It is crucial to note that uniformity is relative, and while machines are more uniform under this operationalization, it would still be true that human text is uniform as per the human’s probability distribution (that we do not have access to and can only approximate using some LM distribution, for example, GPT2-XL in our case). UID theory does not make any predic- tions on where machine-generated text might lie in the uniform to non-uniform spectrum but only indi- cates that humans are arranging utterances evenly as per their own language distribution. Irrespe
+erations from being detected by existing methods? Finally, future work may explore whether the local log probabil- ity curvature property we identify is present for generative models in other domains, such as audio, video, or images. We hope that the present work serves as inspiration to fu- ture work developing effective, general-purpose methods for mitigating potential harms of machine-generated media. Acknowledgements EM gratefully acknowledges funding from a Knight- Hennessy Graduate Fellowship. CF and CM are CIFAR Fellows. The Stanford Center for Research on Foundation Models (CRFM) provided part of the compute resources used for the experiments in this work. 9
 ```
 
 
@@ -934,6 +933,51 @@ text evaluated using the distribution function of a given source LLM. However, r
 
 ### Retrieved Chunk 4
 
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `9`
+- Chunk ID: `256`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.44804322719573975`
+- BM25 Score: `8.84241347657191`
+- Reranker Score: `5.0491943359375`
+
+```text
+underperforms Binoculars or RADAR. Nonetheless, AdaDetectGPT consistently improves upon Fast-DetectGPT across various datasets, with gains on Essay reaching up to 37.8%. Additionally, we evaluate AdaDetectGPT’s robustness to two adversarial attacks, paraphrasing and decoherence, in the black-box setting. As shown in Table 3, AdaDetectGPT demonstrates greater resilience than Fast-DetectGPT to adversarially perturbed texts. The improvement reaches up to 10% for paraphrasing and up to 85% for decoherence. Finally, we employ the same five LLMs from Table 1 to compare Fast-DetectGPT and AdaDetectGPT in black-box settings. Following Bao et al. (2024), we use GPT-J as the source LLM for detecting each of the remaining four target LLMs. Due to space constraints, the results are presented in Table S11 of Appendix F.5, where AdaDetectGPT uniformly outperforms Fast-DetectGPT in all cases, with impr
+```
+
+### Retrieved Chunk 5
+
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `1`
+- Chunk ID: `215`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `unknown`
+- BM25 Score: `8.959452228291966`
+- Reranker Score: `4.9158782958984375`
+
+```text
+compute the logits – AdaDetectGPT achieves improvements over the best alternative in area under the curve (AUC) ranging from 12.5% to 37%. In black-box settings, where the source and target LLMs differ, it similarly offer gains of up to 20%. Theoretically, we provide statistical performance guarantees for AdaDetectGPT, deriving finite- sample error bounds for its TNR, FNR, true positive rate (TPR) and false positive rate (FPR). Existing literature on logits-based detectors generally lacks systematic statistical analysis. Our work aims to fill in this gap and contribute toward a deeper understanding of these methods in this emerging field, by offering a comprehensive analysis based on the aforementioned standard classification metrics. 1.1 Related works Existing methods for detecting machine-generated text generally fall into three categories: machine learning (ML)-based, statistics-based
+```
+
+### Retrieved Chunk 6
+
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `8`
+- Chunk ID: `252`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.48041218519210815`
+- BM25 Score: `unknown`
+- Reranker Score: `4.0706939697265625`
+
+```text
+In Appendix F.3, we analyze the computational costof AdaDetectGPT. Training the witness function typically requires less than one minute across different sample sizes and dimensions, with memory usage below 0.5 GB. In Appendix F.4, we further conduct a sensitivity analysisto investigate the sensitivity of AdaDetectGPT’s AUC score to various factors that may affect the estimation of the witness function. Our results show that AdaDetectGPT is generally robust to the size of training data, the number of B-spline features, and the distributional shift between training and test data, consistently maintaining superior performance over baselines. Black-box results. We next consider the black-box setting, where the task is to detect text generated by three widely used advanced LLMs: GPT-4o (Hurst et al., 2024), Claude-3.5-Haiku (Anthropic, 2024), and Gemini-2.5-Flash (Comanici et al., 2025). In 
+```
+
+### Retrieved Chunk 7
+
 - Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
 - Page: `8`
 - Chunk ID: `2240`
@@ -947,64 +991,19 @@ text evaluated using the distribution function of a given source LLM. However, r
 thorship and watermarking. Limitations and Future Work. Our initial research impetus centered on accelerating the detection process of DetectGPT. However, Fast-DetectGPT not only accelerates this process but also brings about notable enhancements in detection accuracy. In this paper, our focus is predominantly on these empirical advancements, with theoretical explorations earmarked for future endeavors. Furthermore, Fast-DetectGPT’s design leans on pre-trained models to span a multitude of domains and languages. This presents a challenge in a black-box setting, as no single model can seamlessly span all linguistic territories and domains. This is due to the intrinsic nature of pre-trained models being tailored to specific domains and languages. 5 R ELATED WORK Current research primarily concentrates onsupervised methods, involving the training of classifiers to distinguish between machin
 ```
 
-### Retrieved Chunk 5
+### Retrieved Chunk 8
 
-- Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
-- Page: `21`
-- Chunk ID: `2297`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.5744954347610474`
-- BM25 Score: `unknown`
-- Reranker Score: `-1.8355700969696045`
-
-```text
-Published as a conference paper at ICLR 2024 used in Table 2, sampling with the three strategies with k = 40 , p = 0 .96, and T = 0 .8. Fast- DetectGPT in the white-box setting obtains the best accuracy on the three sampling strategies, out- performing DetectGPT by relative 95% on Top- p sampling, relative 81% on Top- k sampling, and relative 99% on sampling with a temperature, as shown in Table 9. In the black-box setting, Fast- DetectGPT outperforms DetectGPT by relatively 92%, 80%, and 98% on the three decoding strate- gies, respectively. These results demonstrate that Fast-DetectGPT works consistently in detecting texts produced by different decoding strategies. To elucidate the trajectory of detection accuracy concerning variations in sampling hyper- parameters, we conducted additional experiments with values set top = 0.90, k = 30, and T = 0.6. As indicated in the lower segment of 
-```
-
-### Retrieved Chunk 6
-
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
 - Page: `2`
-- Chunk ID: `1519`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.6309280395507812`
-- BM25 Score: `unknown`
-- Reranker Score: `-1.9079307317733765`
-
-```text
-of watermarks is also a challenge we need to address. However, with the emergence of ChatGPT, an innovative statistical detection method called DetectGPT [5] has been developed. Its principle is that text generated by the model typically resides in the negative curvature region of the model’s log probability. DetectGPT [ 5] generates and compares multiple variants of model-generated texts to determine whether the texts are machine-generated based on the log probabilities of the original texts and these variants. DetectGPT [5] outperforms the vast majority of existing zero-shot methods in terms of model sample detection, achieving very high AUC. It is based on this concept that DetectGPT-SC was proposed. 3 Methodology Predefined definition X is the original input text. ˆX is the sentence masked within X, which can also be referred to as "<mask>". P ( ˆX) is the mask content predicted by C
-```
-
-### Retrieved Chunk 7
-
-- Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
-- Page: `8`
-- Chunk ID: `2239`
+- Chunk ID: `1445`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `2.374049816497317`
-- Reranker Score: `-2.489854574203491`
+- BM25 Score: `6.7454281321213605`
+- Reranker Score: `-1.7166247367858887`
 
 ```text
-Published as a conference paper at ICLR 2024 4 D ISCUSSION Fast-DetectGPT performs about 65% better in white-box settings than black-box ones. Industrial services could leverage the white-box setting to enhance the content authorship for proprietary LLMs like ChatGPT and GPT-4 by exposing conditional probability curvature in the service API, without significant extra cost on the computation of the feature. From the research perspective, the black-box setting may have unforeseen potential. The best model for this setting remains unclear, and may depend on factors like model size, training corpus breadth, and training process convergence. These factors warrant further investigation to provide clarity and guidance in the development of black-box detection methods. We further discuss the broader implications of Fast-DetectGPT in Appendix G, covering text au- thorship and watermarking. Limita
-```
-
-### Retrieved Chunk 8
-
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `0`
-- Chunk ID: `1510`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.7215257883071899`
-- BM25 Score: `unknown`
-- Reranker Score: `-2.5270957946777344`
-
-```text
-self-consistency in text generation and continuation. Self-consistency capitalizes on the intuition that AI-generated texts can still be reasoned with by large language models using the same logical reasoning when portions of the texts are masked, which differs from human-generated texts. Using this observation, we subsequently proposed a new method for AI-generated texts detection based on self-consistency with masked predictions to determine whether a text is generated by LLMs. This method, which we call DetectGPT-SC. We conducted a series of experiments to evaluate the performance of DetectGPT-SC. In these experiments, we employed various mask scheme, zero-shot, and simple prompt for completing masked texts and self-consistency predictions. The results indicate that DetectGPT-SC outperforms the current state-of-the-art across different tasks. 1 Introduction Large language models (LLMs
+Zero-Shot Machine-Generated Text Detection using Probability Curvature generated text detection. Other work explores watermarks for generated text (Kirchenbauer et al., 2023), which modify a model’s generations to make them easier to detect. Our work does not assume text is generated with the goal of easy detection; DetectGPT detects text generated from publicly available LLMs using standard LLM sampling strategies. The widespread use of LLMs has led to much other con- temporaneous work on detecting LLM output. Sadasivan et al. (2023) show that the detection AUROC of the an de- tector is upper bounded by a function of the TV distance between the model and human text. However, we find that AUROC of DetectGPT is high even for the largest publicly- available models (Table 2), suggesting that TV distance may not correlate strongly with model scale and capability. This disconnect may be exace
 ```
 
 
@@ -1041,19 +1040,19 @@ These should usually be similar because all three settings use the same paper-le
 
 1. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.4306338429450989`
+   - Paper score: `0.44574111700057983`
 
-2. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+2. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.45166757702827454`
+
+3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.467221736907959`
-
-3. `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-   - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.49767881631851196`
+   - Paper score: `0.47658205032348633`
 
 4. `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
    - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.4983159601688385`
+   - Paper score: `0.49779653549194336`
 
 
 ### Selected Papers
@@ -1062,57 +1061,57 @@ These should usually be similar because all three settings use the same paper-le
 
 1. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.4306338429450989`
+   - Paper score: `0.44574111700057983`
 
-2. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+2. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.45166757702827454`
+
+3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.467221736907959`
-
-3. `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-   - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.49767881631851196`
+   - Paper score: `0.47658205032348633`
 
 4. `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
    - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.4983159601688385`
+   - Paper score: `0.49779653549194336`
 
 
 #### BM25-only Selected Papers
 
 1. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.4306338429450989`
+   - Paper score: `0.44574111700057983`
 
-2. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+2. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.45166757702827454`
+
+3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.467221736907959`
-
-3. `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-   - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.49767881631851196`
+   - Paper score: `0.47658205032348633`
 
 4. `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
    - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.4983159601688385`
+   - Paper score: `0.49779653549194336`
 
 
 #### Hybrid Selected Papers
 
 1. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.4306338429450989`
+   - Paper score: `0.44574111700057983`
 
-2. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+2. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.45166757702827454`
+
+3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.467221736907959`
-
-3. `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-   - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.49767881631851196`
+   - Paper score: `0.47658205032348633`
 
 4. `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
    - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.4983159601688385`
+   - Paper score: `0.49779653549194336`
 
 
 ### Summary Statistics
@@ -1120,35 +1119,64 @@ These should usually be similar because all three settings use the same paper-le
 | Metric | Dense only | BM25 only | Hybrid + reranker |
 |---|---:|---:|---:|
 | Retrieved chunks | 8 | 8 | 8 |
-| Unique sources | 4 | 3 | 4 |
+| Unique sources | 4 | 3 | 3 |
 | Noisy chunks | 0 | 0 | 0 |
-| Overlap with hybrid | 4 | 0 | 8 |
+| Overlap with hybrid | 4 | 2 | 8 |
 
 ### Source Distribution
 
 #### Dense only
 
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 3 chunks
-- `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 3 chunks
-- `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`: 1 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 3 chunks
+- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 2 chunks
+- `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 2 chunks
 - `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`: 1 chunks
 
 #### BM25 only
 
-- `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`: 3 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 3 chunks
 - `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`: 3 chunks
 - `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 2 chunks
 
 #### Hybrid + reranker
 
-- `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`: 2 chunks
-- `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`: 2 chunks
-- `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 2 chunks
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 2 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 6 chunks
+- `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`: 1 chunks
+- `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 1 chunks
 
 ### Dense-only Retrieved Chunks
 
 ### Retrieved Chunk 1
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `6`
+- Chunk ID: `1472`
+- Chunk Type: `main`
+- Dense Score: `0.4136630892753601`
+- Vector Score: `0.4136630892753601`
+- BM25 Score: `unknown`
+- Reranker Score: `unknown`
+
+```text
+Zero-Shot Machine-Generated Text Detection using Probability Curvature 0.00 0.08 0.160.04 0.12 0.240.20 Fraction of GPT-J-generated news article re-written 0.6 0.7 0.8 0.9 1.0Detection AUROC Rank DetectGPT LogRank Likelihood Entropy Figure 5. We simulate human edits to machine-generated text by replacing varying fractions of model samples with T5-3B gener- ated text (masking out random five word spans until r% of text is masked to simulate human edits to machine-generated text). The four top-performing methods all generally degrade in performance with heavier revision, but DetectGPT is consistently most accurate. Experiment is conducted on the XSum dataset. for each token, we cannot compare to the rank, log rank, and entropy-based prior methods. We sample 150 examples 5 from the PubMedQA, XSum, and WritingPrompts datasets and compare the two pre-trained RoBERTa-based detector models with
+```
+
+### Retrieved Chunk 2
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `6`
+- Chunk ID: `1473`
+- Chunk Type: `main`
+- Dense Score: `0.41695094108581543`
+- Vector Score: `0.41695094108581543`
+- BM25 Score: `unknown`
+- Reranker Score: `unknown`
+
+```text
+models with DetectGPT and the probability thresholding baseline. We show in Table 2 that DetectGPT can provide detection competitive with or better than the stronger of the two supervised models, and it again greatly outperforms probability thresholding on average. 5.2. Variants of Machine-Generated Text Detection Detecting paraphrased machine-generated text. In prac- tice, humans may manually edit or refine machine-generated text rather than blindly use a model’s generations for their task of interest. We therefore conduct an experiment to simulate the detection problem for model samples that have been increasingly heavily revised. We simulate human re- vision by replacing 5 word spans of the text with samples from T5-3B until r% of the text has been replaced, and report performance as r varies. Figure 5 shows that De- tectGPT maintains detection AUROC above 0.8 even when nearly a quart
+```
+
+### Retrieved Chunk 3
 
 - Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
 - Page: `2`
@@ -1163,22 +1191,7 @@ These should usually be similar because all three settings use the same paper-le
 of watermarks is also a challenge we need to address. However, with the emergence of ChatGPT, an innovative statistical detection method called DetectGPT [5] has been developed. Its principle is that text generated by the model typically resides in the negative curvature region of the model’s log probability. DetectGPT [ 5] generates and compares multiple variants of model-generated texts to determine whether the texts are machine-generated based on the log probabilities of the original texts and these variants. DetectGPT [5] outperforms the vast majority of existing zero-shot methods in terms of model sample detection, achieving very high AUC. It is based on this concept that DetectGPT-SC was proposed. 3 Methodology Predefined definition X is the original input text. ˆX is the sentence masked within X, which can also be referred to as "<mask>". P ( ˆX) is the mask content predicted by C
 ```
 
-### Retrieved Chunk 2
-
-- Source: `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-- Page: `2`
-- Chunk ID: `1771`
-- Chunk Type: `main`
-- Dense Score: `0.43436291813850403`
-- Vector Score: `0.43436291813850403`
-- BM25 Score: `unknown`
-- Reranker Score: `unknown`
-
-```text
-1020 50 100 #(Perturbations) 88 90 92performance(%) XSum 1020 50 100 #(Perturbations) 82 84 86 SQuAD 1020 50 100 #(Perturbations) 92 94 96 WritingP DetectGPT NPR(ours) Figure 2: Comparison of DetectGPT to NPR averaged across six models (in terms of AUROC). (The full results are given in Figure 6 in the Appendix). methods for detecting machine-generated text by evaluating the per-token log probability of texts and using thresholding. Mitchell et al. (2023) observed that machine-generated texts tend to lie in the local curvature of the log probability and proposed De- tectGPT, whose prominent performance can only be guaranteed by the large size of the perturbation function and by a large number of perturbations, and thus costs more computational resources. Other work explored watermarking, which im- prints specific patterns of the LLM-output text that can be detected by an algorithm while 
-```
-
-### Retrieved Chunk 3
+### Retrieved Chunk 4
 
 - Source: `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
 - Page: `2`
@@ -1193,7 +1206,7 @@ of watermarks is also a challenge we need to address. However, with the emergenc
 1020 50 100 #(Perturbations) 88 90 92performance(%) XSum 1020 50 100 #(Perturbations) 82 84 86 SQuAD 1020 50 100 #(Perturbations) 92 94 96 WritingP DetectGPT NPR(ours) Figure 2: Comparison of DetectGPT to NPR averaged across six models (in terms of AUROC). (The full results are given in Figure 6 in the Appendix). methods for detecting machine-generated text by evaluating the per-token log probability of texts and using thresholding. Mitchell et al. (2023) observed that machine-generated texts tend to lie in the local curvature of the log probability and proposed De- tectGPT, whose prominent performance can only be guaranteed by the large size of the perturbation function and by a large number of perturbations, and thus costs more computational resources. Other work explored watermarking, which im- prints specific patterns of the LLM-output text that can be detected by an algorithm while 
 ```
 
-### Retrieved Chunk 4
+### Retrieved Chunk 5
 
 - Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
 - Page: `4`
@@ -1208,7 +1221,22 @@ of watermarks is also a challenge we need to address. However, with the emergenc
 Published as a conference paper at ICLR 2024 Algorithm 1 Fast-DetectGPT machine-generated text detection. Input: passage x, sampling model qφ, scoring model pθ, and decision threshold ϵ Output: True – probably machine-generated, False – probably human-written. 1: function FAST DETECT GPT( x, qφ, pθ) 2: ˜xi ∼ qφ(˜x|x), i ∈ [1..N ] ▷ Conditional sampling 3: ˜µ ← 1 N P i log pθ(˜xi|x) ▷ Estimate the mean 4: ˜σ2 ← 1 N −1 P i(log pθ(˜xi|x) − ˜µ)2 ▷ Estimate the variance 5: ˆdx ← (log pθ(x) − ˜µ)/˜σ ▷ Estimate conditional probability curvature 6: return ˆdx > ϵ torch.distributions.categorical.Categorical(logits=lprobs).sample([10000]), where the lprobs is the log probability distribution of qφ(˜xj|x<j) for j from 0 to the length of x. The sampling process plays a pivotal role in guiding us toward the solution. To discern whether a token within a given context is machine-generated or human-auth
 ```
 
-### Retrieved Chunk 5
+### Retrieved Chunk 6
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `4`
+- Chunk ID: `1461`
+- Chunk Type: `main`
+- Dense Score: `0.4410603940486908`
+- Vector Score: `0.4410603940486908`
+- BM25 Score: `unknown`
+- Reranker Score: `unknown`
+
+```text
+tion task. Finally, we analyze more closely DetectGPT’s behavior as the choice of perturbation function, the number of samples used to estimate d (x, pθ, q), the length of the passage, and the data distribution is varied. Comparisons. We compare DetectGPT with various exist- ing zero-shot methods for machine-generated text detection that also leverage the predicted token-wise conditional dis- tributions of the source model for detection. These methods correspond to statistical tests based on token log probabil- ities, token ranks, or predictive entropy (Gehrmann et al., 2019; Solaiman et al., 2019; Ippolito et al., 2020). The first method uses the source model’s average token-wise log probability to determine if a candidate passage is machine- generated or not; passages with high average log probability are likely to be generated by the model. The second and third methods use the average
+```
+
+### Retrieved Chunk 7
 
 - Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
 - Page: `5`
@@ -1223,7 +1251,7 @@ Published as a conference paper at ICLR 2024 Algorithm 1 Fast-DetectGPT machine-
 while a lower temperature (such as 0.1) makes the generated texts more deterministic or focused. In scoring systems, the primary evaluation is focused on the quality and coherence of the generated texts. These metrics emphasize the overall quality of the generated output rather than the specific level of randomness or diversity. 5 Conclusion In this paper, we have successfully introduced and validated DetectGPT-SC, which distinguishes itself significantly from existing literature. Our work proposes an innovative text detection method based on the self-consistency and 6
 ```
 
-### Retrieved Chunk 6
+### Retrieved Chunk 8
 
 - Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
 - Page: `5`
@@ -1238,55 +1266,55 @@ while a lower temperature (such as 0.1) makes the generated texts more determini
 experiments, measuring the detection accuracy in AUROC (see Appendix A). Inference Speedup. We compare the inference time (excluding the time for initializing the model) of Fast-DetectGPT and DetectGPT on a Tesla A100 GPU using XSum generations from the five models in Table 2. Despite DetectGPT’s use of GPU batch processing, splitting 100 perturbations into 10 batches, it still requires substantial computational resources. It totals 79,113 seconds (ap- proximately 22 hours) over five runs. In contrast, Fast-DetectGPT completes the task in only 233 seconds (about 4 minutes), achieving a remarkable speedup factor of approximately 340x, highlight- ing its significant performance improvement. White-Box Zero-Shot Machine-Generated Text Detection. We evaluate zero-shot methods us- ing each source model for scoring and typically Fast-DetectGPT using the source model also for sampling. The avera
 ```
 
-### Retrieved Chunk 7
-
-- Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
-- Page: `20`
-- Chunk ID: `2293`
-- Chunk Type: `main`
-- Dense Score: `0.46127474308013916`
-- Vector Score: `0.46127474308013916`
-- BM25 Score: `unknown`
-- Reranker Score: `unknown`
-
-```text
-DetectGPT .9875 .9793 .9961 .9762 .95 .9869 .9707 .9919 .9619 .9424 .9928 .9856 .9953 .979 .9622 Fast-DetectGPT .9994 .9965 .9988 .997 .9958 .9954 .9867 .9938 .9826 .9773 .9999 .9999 .9997 .9999 .9997 (Diff) .0119 .0172 .0028 .0208 .0458 .0085 .0160 .0018 .0207 .0349 .0071 .0143 .0044 .0209 .0376 DetectGPT(fixed) .9399 .9438 .9961 .9367 .9214 .9143 .9026 .9919 .8846 .8854 .9722 .9635 .9953 .9627 .9646 Fast-Detect(fixed) .9953 .9861 .9997 .9856 .9779 .9805 .9613 .9979 .9499 .9311 .9978 .999 .9999 .9991 .998 (Diff) .0554 .0423 .0036 .0489 .0565 .0662 .0587 .0060 .0654 .0457 .0256 .0355 .0046 .0364 .0333 SQuAD Likelihood .961 .944 .9214 .8838 .8122 .9393 .9072 .8926 .8351 .7317 .9906 .987 .9792 .9572 .9094 Entropy .5369 .4736 .539 .5277 .5593 .552 .5203 .5457 .5441 .5992 .5132 .4508 .4924 .4882 .5263 LogRank .9792 .9657 .9535 .9156 .8482 .9692 .9423 .9385 .8842 .7895 .9972 .9959 .994 .9798 
-```
-
-### Retrieved Chunk 8
-
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `0`
-- Chunk ID: `1509`
-- Chunk Type: `main`
-- Dense Score: `0.4709795117378235`
-- Vector Score: `0.4709795117378235`
-- BM25 Score: `unknown`
-- Reranker Score: `unknown`
-
-```text
-DETECT GPT-SC: I MPROVING DETECTION OF TEXT GENERATED BY LARGE LANGUAGE MODELS THROUGH SELF -C ONSISTENCY WITH MASKED PREDICTIONS Rongsheng Wang Macao Polytechnic University p2213046@mpu.edu.mo Qi Li Iowa State University qli@iastate.edu Sihong Xie∗ HKUST (GZ) sihongxie@hkust-gz.edu.cn ABSTRACT General large language models (LLMs) such as ChatGPT have shown remarkable success, but it has also raised concerns among people about the misuse of AI-generated texts. Therefore, an important question is how to detect whether the texts are generated by ChatGPT or by humans. Existing detectors are built on the assumption that there is a distribution gap between human-generated and AI-generated texts. These gaps are typically identified using statistical information or classifiers. In contrast to prior research methods, we find that large language models such as ChatGPT exhibit strong self-consiste
-```
-
 
 ### BM25-only Retrieved Chunks
 
 ### Retrieved Chunk 1
 
-- Source: `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-- Page: `14`
-- Chunk ID: `1833`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `2`
+- Chunk ID: `1445`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `10.283032572923467`
+- BM25 Score: `13.58071750216719`
 - Reranker Score: `unknown`
 
 ```text
-smaller than 50 points, which suggests that for low temperature, we should use the assumption “machine- generated text has lower entropy" for detection machine-generated text. In general, the Entropy method performs worse than random and is not an implementable detection method. For perturbation-based methods (Figure 10), while DetectGPT does not exhibit a clear trend with respect to temperature, the performance of NPR improves with the decreasing temperature most of the time. However, this trend is not as clear as the Log-Rank and Log-Likelihood methods, especially when the temperature becomes too low. This behaviour suggests that the perturbation-based method is more suitable for high temperatures, while the perturbation-free method is more suitable for low temperature. 12409
+Zero-Shot Machine-Generated Text Detection using Probability Curvature generated text detection. Other work explores watermarks for generated text (Kirchenbauer et al., 2023), which modify a model’s generations to make them easier to detect. Our work does not assume text is generated with the goal of easy detection; DetectGPT detects text generated from publicly available LLMs using standard LLM sampling strategies. The widespread use of LLMs has led to much other con- temporaneous work on detecting LLM output. Sadasivan et al. (2023) show that the detection AUROC of the an de- tector is upper bounded by a function of the TV distance between the model and human text. However, we find that AUROC of DetectGPT is high even for the largest publicly- available models (Table 2), suggesting that TV distance may not correlate strongly with model scale and capability. This disconnect may be exace
 ```
 
 ### Retrieved Chunk 2
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `1`
+- Chunk ID: `1438`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `unknown`
+- BM25 Score: `10.758111712615761`
+- Reranker Score: `unknown`
+
+```text
+Zero-Shot Machine-Generated Text Detection using Probability Curvature machine-generated text detection problem as a binary clas- sification problem. Specifically, we aim to classify whether a candidate passage was generated by a particular source model. While several works have investigated methods for training a second deep network to detect machine-generated text, such an approach has several shortcomings, including a tendency to overfit to the topics it was trained on as well as the need to train a new model for each new source model that is released. We therefore consider the zero-shot version of machine-generated text detection, where we use the source model itself, without fine-tuning or adaptation of any kind, to detect its own samples. The most common method for zero-shot machine-generated text detection is evaluating the average per-token log probability of the generated text a
+```
+
+### Retrieved Chunk 3
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `0`
+- Chunk ID: `1433`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `unknown`
+- BM25 Score: `10.753234279133384`
+- Reranker Score: `unknown`
+
+```text
+DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature Eric Mitchell 1 Yoonho Lee1 Alexander Khazatsky 1 Christopher D. Manning 1 Chelsea Finn 1 Abstract The increasing fluency and widespread usage of large language models (LLMs) highlight the de- sirability of corresponding tools aiding detection of LLM-generated text. In this paper, we identify a property of the structure of an LLM’s proba- bility function that is useful for such detection. Specifically, we demonstrate that text sampled from an LLM tends to occupy negative curva- ture regions of the model’s log probability func- tion. Leveraging this observation, we then define a new curvature-based criterion for judging if a passage is generated from a given LLM. This approach, which we call DetectGPT, does not re- quire training a separate classifier, collecting a dataset of real or generated passages, or e
+```
+
+### Retrieved Chunk 4
 
 - Source: `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
 - Page: `14`
@@ -1301,22 +1329,7 @@ smaller than 50 points, which suggests that for low temperature, we should use t
 smaller than 50 points, which suggests that for low temperature, we should use the assumption “machine- generated text has lower entropy" for detection machine-generated text. In general, the Entropy method performs worse than random and is not an implementable detection method. For perturbation-based methods (Figure 10), while DetectGPT does not exhibit a clear trend with respect to temperature, the performance of NPR improves with the decreasing temperature most of the time. However, this trend is not as clear as the Log-Rank and Log-Likelihood methods, especially when the temperature becomes too low. This behaviour suggests that the perturbation-based method is more suitable for high temperatures, while the perturbation-free method is more suitable for low temperature. 12409
 ```
 
-### Retrieved Chunk 3
-
-- Source: `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-- Page: `13`
-- Chunk ID: `1830`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `unknown`
-- BM25 Score: `9.231031520236666`
-- Reranker Score: `unknown`
-
-```text
-methods with four LLMs using top-p and top-k sampling. For perturbation-based methods, even with different sampling strategies, NPR provides a clearer signal for machine-generated text detection than DetectGPT. Moreover, we find that although LRR is more stable than Log-Rank and Log-Likelihood methods: when replacing temperature sampling to top- p and top-k sampling, all the above-mentioned three zero-shot methods’ performance improves, however, LRR improves approximately the same for both top-k and top-p sampling while the other two is more in favour of top-p sampling. Different Temperature. Here, we investigate how the temperature used for machine-generated texts affects the detection accuracy of different zero-shot methods. From Figure 9, we find that all the perturbation-free zero-shot methods improved their performance with the decreasing temperature. In particular, for the Log-Rank
-```
-
-### Retrieved Chunk 4
+### Retrieved Chunk 5
 
 - Source: `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
 - Page: `13`
@@ -1329,21 +1342,6 @@ methods with four LLMs using top-p and top-k sampling. For perturbation-based me
 
 ```text
 methods with four LLMs using top-p and top-k sampling. For perturbation-based methods, even with different sampling strategies, NPR provides a clearer signal for machine-generated text detection than DetectGPT. Moreover, we find that although LRR is more stable than Log-Rank and Log-Likelihood methods: when replacing temperature sampling to top- p and top-k sampling, all the above-mentioned three zero-shot methods’ performance improves, however, LRR improves approximately the same for both top-k and top-p sampling while the other two is more in favour of top-p sampling. Different Temperature. Here, we investigate how the temperature used for machine-generated texts affects the detection accuracy of different zero-shot methods. From Figure 9, we find that all the perturbation-free zero-shot methods improved their performance with the decreasing temperature. In particular, for the Log-Rank
-```
-
-### Retrieved Chunk 5
-
-- Source: `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-- Page: `11`
-- Chunk ID: `1819`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `unknown`
-- BM25 Score: `8.88869366001364`
-- Reranker Score: `unknown`
-
-```text
-to be machine-generated. • Entropy (Gehrmann et al., 2019): This approach is inspired by the hypothesis that machine-generated texts are more likely to have over-confident (thus low entropy) predictive distributions. In practice, (Mitchell et al., 2023) discovered that entropy is positively correlated with passage fakeness, therefore, following their convention, we use high average entropy as a signal of machine-generated text. • DetectGPT (Mitchell et al., 2023): DetectGPT is based on the hypothesis that when applying small perturbations to a passage x and produce the perturbed text ˜x, the quantity log pθ(x)− log pθ(˜x) is relatively larger for machine-generated samples than human written one. In practice, the performance of this approach depends heavily on the external perturbation function and the number of perturbations. Details on LLMs used. We used 7 LLMs ranging from 1.5B paramet
 ```
 
 ### Retrieved Chunk 6
@@ -1396,20 +1394,80 @@ DETECT GPT-SC: I MPROVING DETECTION OF TEXT GENERATED BY LARGE LANGUAGE MODELS T
 
 ### Retrieved Chunk 1
 
-- Source: `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-- Page: `2`
-- Chunk ID: `1771`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `0`
+- Chunk ID: `1433`
 - Chunk Type: `main`
 - Dense Score: `unknown`
-- Vector Score: `0.43436291813850403`
-- BM25 Score: `7.899461110026238`
-- Reranker Score: `7.708574295043945`
+- Vector Score: `0.4524148106575012`
+- BM25 Score: `10.753234279133384`
+- Reranker Score: `8.607498168945312`
 
 ```text
-1020 50 100 #(Perturbations) 88 90 92performance(%) XSum 1020 50 100 #(Perturbations) 82 84 86 SQuAD 1020 50 100 #(Perturbations) 92 94 96 WritingP DetectGPT NPR(ours) Figure 2: Comparison of DetectGPT to NPR averaged across six models (in terms of AUROC). (The full results are given in Figure 6 in the Appendix). methods for detecting machine-generated text by evaluating the per-token log probability of texts and using thresholding. Mitchell et al. (2023) observed that machine-generated texts tend to lie in the local curvature of the log probability and proposed De- tectGPT, whose prominent performance can only be guaranteed by the large size of the perturbation function and by a large number of perturbations, and thus costs more computational resources. Other work explored watermarking, which im- prints specific patterns of the LLM-output text that can be detected by an algorithm while 
+DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature Eric Mitchell 1 Yoonho Lee1 Alexander Khazatsky 1 Christopher D. Manning 1 Chelsea Finn 1 Abstract The increasing fluency and widespread usage of large language models (LLMs) highlight the de- sirability of corresponding tools aiding detection of LLM-generated text. In this paper, we identify a property of the structure of an LLM’s proba- bility function that is useful for such detection. Specifically, we demonstrate that text sampled from an LLM tends to occupy negative curva- ture regions of the model’s log probability func- tion. Leveraging this observation, we then define a new curvature-based criterion for judging if a passage is generated from a given LLM. This approach, which we call DetectGPT, does not re- quire training a separate classifier, collecting a dataset of real or generated passages, or e
 ```
 
 ### Retrieved Chunk 2
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `2`
+- Chunk ID: `1445`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `unknown`
+- BM25 Score: `13.58071750216719`
+- Reranker Score: `8.331501960754395`
+
+```text
+Zero-Shot Machine-Generated Text Detection using Probability Curvature generated text detection. Other work explores watermarks for generated text (Kirchenbauer et al., 2023), which modify a model’s generations to make them easier to detect. Our work does not assume text is generated with the goal of easy detection; DetectGPT detects text generated from publicly available LLMs using standard LLM sampling strategies. The widespread use of LLMs has led to much other con- temporaneous work on detecting LLM output. Sadasivan et al. (2023) show that the detection AUROC of the an de- tector is upper bounded by a function of the TV distance between the model and human text. However, we find that AUROC of DetectGPT is high even for the largest publicly- available models (Table 2), suggesting that TV distance may not correlate strongly with model scale and capability. This disconnect may be exace
+```
+
+### Retrieved Chunk 3
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `2`
+- Chunk ID: `1450`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.4474771320819855`
+- BM25 Score: `unknown`
+- Reranker Score: `8.189292907714844`
+
+```text
+without any fine-tuning or adaptation to the target domain. 4. DetectGPT: Zero-shot Machine-Generated Text Detection with Random Perturbations DetectGPT is based on the hypothesis that samples from a source model pθ typically lie in areas of negative curvature of the log probability function of pθ, unlike human text. In other words, if we apply small perturbations to a passage x ∼ pθ, producing ˜x, the quantity log pθ(x) − log pθ(˜x) should be relatively large on average for machine-generated samples compared to human-written text. To leverage this hypothesis, first consider a perturbation function q(· | x) that gives a distribution over ˜x, slightly modified versions of x with similar meaning (we will generally consider roughly paragraph-length texts x). As an example, q(· | x) might be the result of simply asking a human to rewrite one of the sentences of x, while preserving the meanin
+```
+
+### Retrieved Chunk 4
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `6`
+- Chunk ID: `1472`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.4136630892753601`
+- BM25 Score: `10.09347475615644`
+- Reranker Score: `7.9210920333862305`
+
+```text
+Zero-Shot Machine-Generated Text Detection using Probability Curvature 0.00 0.08 0.160.04 0.12 0.240.20 Fraction of GPT-J-generated news article re-written 0.6 0.7 0.8 0.9 1.0Detection AUROC Rank DetectGPT LogRank Likelihood Entropy Figure 5. We simulate human edits to machine-generated text by replacing varying fractions of model samples with T5-3B gener- ated text (masking out random five word spans until r% of text is masked to simulate human edits to machine-generated text). The four top-performing methods all generally degrade in performance with heavier revision, but DetectGPT is consistently most accurate. Experiment is conducted on the XSum dataset. for each token, we cannot compare to the rank, log rank, and entropy-based prior methods. We sample 150 examples 5 from the PubMedQA, XSum, and WritingPrompts datasets and compare the two pre-trained RoBERTa-based detector models with
+```
+
+### Retrieved Chunk 5
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `6`
+- Chunk ID: `1473`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.41695094108581543`
+- BM25 Score: `9.487253786066512`
+- Reranker Score: `7.728855133056641`
+
+```text
+models with DetectGPT and the probability thresholding baseline. We show in Table 2 that DetectGPT can provide detection competitive with or better than the stronger of the two supervised models, and it again greatly outperforms probability thresholding on average. 5.2. Variants of Machine-Generated Text Detection Detecting paraphrased machine-generated text. In prac- tice, humans may manually edit or refine machine-generated text rather than blindly use a model’s generations for their task of interest. We therefore conduct an experiment to simulate the detection problem for model samples that have been increasingly heavily revised. We simulate human re- vision by replacing 5 word spans of the text with samples from T5-3B until r% of the text has been replaced, and report performance as r varies. Figure 5 shows that De- tectGPT maintains detection AUROC above 0.8 even when nearly a quart
+```
+
+### Retrieved Chunk 6
 
 - Source: `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
 - Page: `2`
@@ -1424,7 +1482,22 @@ DETECT GPT-SC: I MPROVING DETECTION OF TEXT GENERATED BY LARGE LANGUAGE MODELS T
 1020 50 100 #(Perturbations) 88 90 92performance(%) XSum 1020 50 100 #(Perturbations) 82 84 86 SQuAD 1020 50 100 #(Perturbations) 92 94 96 WritingP DetectGPT NPR(ours) Figure 2: Comparison of DetectGPT to NPR averaged across six models (in terms of AUROC). (The full results are given in Figure 6 in the Appendix). methods for detecting machine-generated text by evaluating the per-token log probability of texts and using thresholding. Mitchell et al. (2023) observed that machine-generated texts tend to lie in the local curvature of the log probability and proposed De- tectGPT, whose prominent performance can only be guaranteed by the large size of the perturbation function and by a large number of perturbations, and thus costs more computational resources. Other work explored watermarking, which im- prints specific patterns of the LLM-output text that can be detected by an algorithm while 
 ```
 
-### Retrieved Chunk 3
+### Retrieved Chunk 7
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `1`
+- Chunk ID: `1440`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.4930853247642517`
+- BM25 Score: `unknown`
+- Reranker Score: `7.427803993225098`
+
+```text
+We empirically verify this hypothesis, and find that it holds true across a diverse body of LLMs, even when the minor rewrites, or perturbations, come from alternative language models. We leverage this observation to build DetectGPT, a zero-shot method for automated machine-generated text detection. To test if a passage came from a source model pθ, DetectGPT compares the log probability of the candidate passage under pθ with the average log probability of several perturbations of the passage under pθ (generated with, e.g., T5; Raffel et al. (2020)). If the perturbed passages tend to have lower average log probability than the original by some margin, the candidate passage is likely to have come from pθ. See Figure 1 for an overview of the problem and DetectGPT. See Figure 2 for an illustration of the under- lying hypothesis and Figure 3 for empirical evaluation of the hypothesis. Our exp
+```
+
+### Retrieved Chunk 8
 
 - Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
 - Page: `4`
@@ -1437,81 +1510,6 @@ DETECT GPT-SC: I MPROVING DETECTION OF TEXT GENERATED BY LARGE LANGUAGE MODELS T
 
 ```text
 Published as a conference paper at ICLR 2024 Algorithm 1 Fast-DetectGPT machine-generated text detection. Input: passage x, sampling model qφ, scoring model pθ, and decision threshold ϵ Output: True – probably machine-generated, False – probably human-written. 1: function FAST DETECT GPT( x, qφ, pθ) 2: ˜xi ∼ qφ(˜x|x), i ∈ [1..N ] ▷ Conditional sampling 3: ˜µ ← 1 N P i log pθ(˜xi|x) ▷ Estimate the mean 4: ˜σ2 ← 1 N −1 P i(log pθ(˜xi|x) − ˜µ)2 ▷ Estimate the variance 5: ˆdx ← (log pθ(x) − ˜µ)/˜σ ▷ Estimate conditional probability curvature 6: return ˆdx > ϵ torch.distributions.categorical.Categorical(logits=lprobs).sample([10000]), where the lprobs is the log probability distribution of qφ(˜xj|x<j) for j from 0 to the length of x. The sampling process plays a pivotal role in guiding us toward the solution. To discern whether a token within a given context is machine-generated or human-auth
-```
-
-### Retrieved Chunk 4
-
-- Source: `DetectLLM Leveraging Log Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-- Page: `0`
-- Chunk ID: `1761`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.47302520275115967`
-- BM25 Score: `7.452863204072033`
-- Reranker Score: `7.34819221496582`
-
-```text
-to detect machine-generated text, preventing malicious use such as plagiarism, misinforma- tion, and propaganda. In this paper, we intro- duce two novel zero-shot methods for detecting machine-generated text by leveraging the Log- Rank information. One is called DetectLLM- LRR, which is fast and efficient, and the other is called DetectLLM-NPR, which is more ac- curate, but slower due to the need for perturba- tions. Our experiments on three datasets and seven language models show that our proposed methods improve over the state of the art by 3.9 and 1.75 AUROC points absolute. More- over, DetectLLM-NPR needs fewer perturba- tions than previous work to achieve the same level of performance, which makes it more practical for real-world use. We also investi- gate the efficiency-performance trade-off based on users’ preference for these two measures and provide intuition for using them in p
-```
-
-### Retrieved Chunk 5
-
-- Source: `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
-- Page: `0`
-- Chunk ID: `1843`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.47302520275115967`
-- BM25 Score: `7.452863204072033`
-- Reranker Score: `7.34819221496582`
-
-```text
-to detect machine-generated text, preventing malicious use such as plagiarism, misinforma- tion, and propaganda. In this paper, we intro- duce two novel zero-shot methods for detecting machine-generated text by leveraging the Log- Rank information. One is called DetectLLM- LRR, which is fast and efficient, and the other is called DetectLLM-NPR, which is more ac- curate, but slower due to the need for perturba- tions. Our experiments on three datasets and seven language models show that our proposed methods improve over the state of the art by 3.9 and 1.75 AUROC points absolute. More- over, DetectLLM-NPR needs fewer perturba- tions than previous work to achieve the same level of performance, which makes it more practical for real-world use. We also investi- gate the efficiency-performance trade-off based on users’ preference for these two measures and provide intuition for using them in p
-```
-
-### Retrieved Chunk 6
-
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `2`
-- Chunk ID: `1519`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.432113915681839`
-- BM25 Score: `7.893055685438107`
-- Reranker Score: `7.316025733947754`
-
-```text
-of watermarks is also a challenge we need to address. However, with the emergence of ChatGPT, an innovative statistical detection method called DetectGPT [5] has been developed. Its principle is that text generated by the model typically resides in the negative curvature region of the model’s log probability. DetectGPT [ 5] generates and compares multiple variants of model-generated texts to determine whether the texts are machine-generated based on the log probabilities of the original texts and these variants. DetectGPT [5] outperforms the vast majority of existing zero-shot methods in terms of model sample detection, achieving very high AUC. It is based on this concept that DetectGPT-SC was proposed. 3 Methodology Predefined definition X is the original input text. ˆX is the sentence masked within X, which can also be referred to as "<mask>". P ( ˆX) is the mask content predicted by C
-```
-
-### Retrieved Chunk 7
-
-- Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
-- Page: `1`
-- Chunk ID: `2207`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.4776860773563385`
-- BM25 Score: `7.7416076846642925`
-- Reranker Score: `7.041775226593018`
-
-```text
-supervised classifiers on detection accuracy. This stems from their need for “universal features” that can function across multiple domains and languages (Gehrmann et al., 2019; Mitchell et al., 2023). A typical zero-shot classifier, DetectGPT (Mitchell et al., 2023), works under the assumption that machine-generated text variations typically have lower model probability than the original, while human-written ones could go either way. Despite its effectiveness, employing probability curvature demands the execution of around one hundred model calls or interactions with services such as the OpenAI API to create the perturbation texts, leading to prohibitive computational costs. In this paper, we posit a new hypothesis for detecting machine-generated text. By viewing text generation as a sequential decision-making process on tokens, our core assertion is that humans and machines exhibit dis
-```
-
-### Retrieved Chunk 8
-
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `2`
-- Chunk ID: `1520`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.6079486012458801`
-- BM25 Score: `unknown`
-- Reranker Score: `6.773212432861328`
-
-```text
-"<mask>". P ( ˆX) is the mask content predicted by ChatGPT. DetectGPT-SC is based on the hypothesis that AI-generated texts can still undergo reasoning by large language models using the same logical reasoning process even when certain portions of the texts are masked, which distinguishes it from texts generated by humans. DetectGPT-SC is shown in Figure 1, by masking the input text X multiple times, we obtain ˆX1, ˆX2, and ˆX3, which represent the masked content in X. Simultaneously, we replace the corresponding positions in the input text X with the "<mask>" token. Then, we utilize ChatGPT to generate completions for the masked ˆX1, ˆX2, and ˆX3, resulting in new inferred results: P ( ˆX1), P ( ˆX2), and P ( ˆX3). Next, we employ cosine similarity and Word2Vec to compute the similarity betweenP ( ˆXi), i = 1, 2, 3 and ˆXi, i = 1, 2, 3. Word2Vec is a word embedding model that represents
 ```
 
 
@@ -1548,19 +1546,19 @@ These should usually be similar because all three settings use the same paper-le
 
 1. `DALD Improving Logits-based Detector without Logits from Black-box LLMs.pdf`
    - Title: DALD Improving Logits based Detector without Logits from Black box LLMs
-   - Paper score: `0.3345983624458313`
+   - Paper score: `0.3437868654727936`
 
 2. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
    - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
-   - Paper score: `0.36604273319244385`
+   - Paper score: `0.3704579472541809`
 
 3. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
    - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.396490216255188`
+   - Paper score: `0.39839988946914673`
 
 4. `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
    - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.40031278133392334`
+   - Paper score: `0.4021763801574707`
 
 
 ### Selected Papers
@@ -1569,57 +1567,57 @@ These should usually be similar because all three settings use the same paper-le
 
 1. `DALD Improving Logits-based Detector without Logits from Black-box LLMs.pdf`
    - Title: DALD Improving Logits based Detector without Logits from Black box LLMs
-   - Paper score: `0.3345983624458313`
+   - Paper score: `0.3437868654727936`
 
 2. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
    - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
-   - Paper score: `0.36604273319244385`
+   - Paper score: `0.3704579472541809`
 
 3. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
    - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.396490216255188`
+   - Paper score: `0.39839988946914673`
 
 4. `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
    - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.40031278133392334`
+   - Paper score: `0.4021763801574707`
 
 
 #### BM25-only Selected Papers
 
 1. `DALD Improving Logits-based Detector without Logits from Black-box LLMs.pdf`
    - Title: DALD Improving Logits based Detector without Logits from Black box LLMs
-   - Paper score: `0.3345983624458313`
+   - Paper score: `0.3437868654727936`
 
 2. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
    - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
-   - Paper score: `0.36604273319244385`
+   - Paper score: `0.3704579472541809`
 
 3. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
    - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.396490216255188`
+   - Paper score: `0.39839988946914673`
 
 4. `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
    - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.40031278133392334`
+   - Paper score: `0.4021763801574707`
 
 
 #### Hybrid Selected Papers
 
 1. `DALD Improving Logits-based Detector without Logits from Black-box LLMs.pdf`
    - Title: DALD Improving Logits based Detector without Logits from Black box LLMs
-   - Paper score: `0.3345983624458313`
+   - Paper score: `0.3437868654727936`
 
 2. `Ghostbuster Detecting Text Ghostwritten by Large Language Models.pdf`
    - Title: Ghostbuster Detecting Text Ghostwritten by Large Language Models
-   - Paper score: `0.36604273319244385`
+   - Paper score: `0.3704579472541809`
 
 3. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
    - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.396490216255188`
+   - Paper score: `0.39839988946914673`
 
 4. `DetectLLM Leveraging Log-Rank Information for Zero-Shot Detection of Machine-Generated Text.pdf`
    - Title: DetectLLM Leveraging Log Rank Information for Zero Shot Detection of Machine Generated Text
-   - Paper score: `0.40031278133392334`
+   - Paper score: `0.4021763801574707`
 
 
 ### Summary Statistics
@@ -2052,80 +2050,80 @@ These should usually be similar because all three settings use the same paper-le
 
 #### Hybrid Candidate Papers
 
-1. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
-   - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.35137027502059937`
+1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.3299407660961151`
 
 2. `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`
    - Title: Intrinsic Dimension Estimation for Robust Detection of AI Generated Texts
-   - Paper score: `0.35572031140327454`
+   - Paper score: `0.34540003538131714`
 
-3. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-   - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.35857266187667847`
-
-4. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
+3. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
    - Title: Unsupervised and Distributional Detection of Machine Generated Text
-   - Paper score: `0.3624788224697113`
+   - Paper score: `0.3520149886608124`
+
+4. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
+   - Title: SeqXGPT Sentence Level AI Generated Text Detection
+   - Paper score: `0.355413556098938`
 
 
 ### Selected Papers
 
 #### Dense-only Selected Papers
 
-1. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
-   - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.35137027502059937`
+1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.3299407660961151`
 
 2. `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`
    - Title: Intrinsic Dimension Estimation for Robust Detection of AI Generated Texts
-   - Paper score: `0.35572031140327454`
+   - Paper score: `0.34540003538131714`
 
-3. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-   - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.35857266187667847`
-
-4. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
+3. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
    - Title: Unsupervised and Distributional Detection of Machine Generated Text
-   - Paper score: `0.3624788224697113`
+   - Paper score: `0.3520149886608124`
+
+4. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
+   - Title: SeqXGPT Sentence Level AI Generated Text Detection
+   - Paper score: `0.355413556098938`
 
 
 #### BM25-only Selected Papers
 
-1. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
-   - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.35137027502059937`
+1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.3299407660961151`
 
 2. `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`
    - Title: Intrinsic Dimension Estimation for Robust Detection of AI Generated Texts
-   - Paper score: `0.35572031140327454`
+   - Paper score: `0.34540003538131714`
 
-3. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-   - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.35857266187667847`
-
-4. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
+3. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
    - Title: Unsupervised and Distributional Detection of Machine Generated Text
-   - Paper score: `0.3624788224697113`
+   - Paper score: `0.3520149886608124`
+
+4. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
+   - Title: SeqXGPT Sentence Level AI Generated Text Detection
+   - Paper score: `0.355413556098938`
 
 
 #### Hybrid Selected Papers
 
-1. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
-   - Title: SeqXGPT Sentence Level AI Generated Text Detection
-   - Paper score: `0.35137027502059937`
+1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.3299407660961151`
 
 2. `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`
    - Title: Intrinsic Dimension Estimation for Robust Detection of AI Generated Texts
-   - Paper score: `0.35572031140327454`
+   - Paper score: `0.34540003538131714`
 
-3. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-   - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.35857266187667847`
-
-4. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
+3. `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
    - Title: Unsupervised and Distributional Detection of Machine Generated Text
-   - Paper score: `0.3624788224697113`
+   - Paper score: `0.3520149886608124`
+
+4. `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
+   - Title: SeqXGPT Sentence Level AI Generated Text Detection
+   - Paper score: `0.355413556098938`
 
 
 ### Summary Statistics
@@ -2133,22 +2131,21 @@ These should usually be similar because all three settings use the same paper-le
 | Metric | Dense only | BM25 only | Hybrid + reranker |
 |---|---:|---:|---:|
 | Retrieved chunks | 8 | 8 | 8 |
-| Unique sources | 4 | 4 | 3 |
+| Unique sources | 3 | 4 | 3 |
 | Noisy chunks | 0 | 0 | 0 |
-| Overlap with hybrid | 2 | 3 | 8 |
+| Overlap with hybrid | 3 | 4 | 8 |
 
 ### Source Distribution
 
 #### Dense only
 
 - `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`: 3 chunks
-- `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`: 2 chunks
+- `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`: 3 chunks
 - `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`: 2 chunks
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 1 chunks
 
 #### BM25 only
 
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 3 chunks
+- `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 3 chunks
 - `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`: 3 chunks
 - `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`: 1 chunks
 - `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`: 1 chunks
@@ -2156,7 +2153,7 @@ These should usually be similar because all three settings use the same paper-le
 #### Hybrid + reranker
 
 - `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`: 3 chunks
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 3 chunks
+- `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 3 chunks
 - `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`: 2 chunks
 
 ### Dense-only Retrieved Chunks
@@ -2238,21 +2235,6 @@ Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts Eduard
 
 ### Retrieved Chunk 6
 
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `1`
-- Chunk ID: `1516`
-- Chunk Type: `main`
-- Dense Score: `0.34866413474082947`
-- Vector Score: `0.34866413474082947`
-- BM25 Score: `unknown`
-- Reranker Score: `unknown`
-
-```text
-classifiers. • Accurate domain invariant detection : We introduce a strategy of implementing self-consistency with masked predictions in LLMs to enhance the accuracy of text detection. Our method overcomes the constraints of training separate classifiers, amassing extensive datasets of real or generated texts, or explicitly adding watermarks to the generated content. It can be realized by simply interacting with LLMs using prompts. In text detection across different domains, DetectGPT-SC achieved an accuracy of 91.1% on HC3 and 93.3% on CYN, demonstrating strong detection and generalization capabilities. • Comprehensive empirical evaluation: We conducted extensive empirical evaluations using the most advanced text detectors ChatGPT Detector [4], GLTR [1], PPL [4], Roberta-base-openai-detector [2], and DetectGPT [5] on CYN dataset and HC3 dataset. 2
-```
-
-### Retrieved Chunk 7
-
 - Source: `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
 - Page: `0`
 - Chunk ID: `3657`
@@ -2266,7 +2248,7 @@ classifiers. • Accurate domain invariant detection : We introduce a strategy o
 Unsupervised and Distributional Detection of Machine-Generated Text Matthias Gallé and Jos Rozen and Germán Kruszewski and Hady Elsahar Naver Labs Europe Abstract The power of natural language generation models has provoked a ﬂurry of interest in au- tomatic methods to detect if a piece of text is human or machine-authored. The problem so far has been framed in a standard super- vised way and consists in training a classiﬁer on annotated data to predict the origin of one given new document. In this paper, we frame the problem in an unsupervised and distribu- tional way: we assume that we have access to a large collection of unannotated documents, a big fraction of which is machine-generated. We propose a method to detect those machine-generated documents leveraging re- peated higher-order n-grams, which we show over-appear in machine-generated text as com- pared to human ones. That weak 
 ```
 
-### Retrieved Chunk 8
+### Retrieved Chunk 7
 
 - Source: `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
 - Page: `1`
@@ -2281,25 +2263,55 @@ Unsupervised and Distributional Detection of Machine-Generated Text Matthias Gal
 this precise setting and showed that the quality of a human/machine discriminator degraded quickly when the prompts used to generate text where from a different domain. On the other side, the problem of determining the origin of one ﬁxed document is in most use cases not the real problem. As an ex- ample, an article generated by an existing template- based data-to-text method (Reiter and Dale, 2000) is arguably of less concern than an article diffusing false information written by a human author. In- deed, one danger of the current language models lies in their capacity of generating a huge amount of human-like text but biased towards a desired opinion or topic (Leroux, 2020; Buchanan et al., 2021). We therefore frame the problem of detecting machine-generated texts as follows: given a set of documents, and the suspicion that a large fraction of them is generated by machine; is it possib
 ```
 
+### Retrieved Chunk 8
+
+- Source: `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
+- Page: `0`
+- Chunk ID: `3395`
+- Chunk Type: `main`
+- Dense Score: `0.36551475524902344`
+- Vector Score: `0.36551475524902344`
+- BM25 Score: `unknown`
+- Reranker Score: `unknown`
+
+```text
+can efficiently conduct sentence-level AIGT detection. given text is written or modified by an AI system (Mitchell et al., 2023; Li et al., 2023). Current AIGT detection strategies, such as supervised-learned discriminator 2, perplexity- based methods (Mitchell et al., 2023; Li et al., 2023), etc., focus on discriminating whether a whole document is generated by an AI. However, users often modify partial texts with LLMs rather than put full trust in LLMs to generate a whole document. Therefore, it is important to explore fine-grained (e.g. sentence-level) AIGT detection. Building methods that solve the sentence-level AIGT detection challenge is not an incremental modification over document-level AIGT detection. On the one hand, model-wise methods like DetectGPT and Sniffer require a rather long document as input (over 100 tokens), making 2https://github.com/openai/ gpt-2-output-dataset a
+```
+
 
 ### BM25-only Retrieved Chunks
 
 ### Retrieved Chunk 1
 
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `6`
-- Chunk ID: `1535`
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `1`
+- Chunk ID: `215`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `14.551201783941224`
+- BM25 Score: `18.72273401446101`
 - Reranker Score: `unknown`
 
 ```text
-Running Title for Header masked prediction of text generated by large language models. Experimental results demonstrate that DetectGPT-SC achieves higher accuracy and efficiency compared to current state-of-the-art text detector. It does not rely on complex classifiers or extensive training data. We hope that our work will provide a valuable starting point for future research and inspire further exploration of the potential of self-consistency in language models for text detection. References [1] S. Gehrmann, H. Strobelt, and A. M. Rush, “Gltr: Statistical detection and visualization of generated text,” arXiv preprint arXiv:1906.04043, 2019. [2] I. Solaiman, M. Brundage, J. Clark, A. Askell, A. Herbert-V oss, J. Wu, A. Radford, G. Krueger, J. W. Kim, S. Kreps et al., “Release strategies and the social impacts of language models,”arXiv preprint arXiv:1908.09203, 2019. [3] S. Chakraborty, 
+compute the logits – AdaDetectGPT achieves improvements over the best alternative in area under the curve (AUC) ranging from 12.5% to 37%. In black-box settings, where the source and target LLMs differ, it similarly offer gains of up to 20%. Theoretically, we provide statistical performance guarantees for AdaDetectGPT, deriving finite- sample error bounds for its TNR, FNR, true positive rate (TPR) and false positive rate (FPR). Existing literature on logits-based detectors generally lacks systematic statistical analysis. Our work aims to fill in this gap and contribute toward a deeper understanding of these methods in this emerging field, by offering a comprehensive analysis based on the aforementioned standard classification metrics. 1.1 Related works Existing methods for detecting machine-generated text generally fall into three categories: machine learning (ML)-based, statistics-based
 ```
 
 ### Retrieved Chunk 2
+
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `15`
+- Chunk ID: `285`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `unknown`
+- BM25 Score: `14.140384631025539`
+- Reranker Score: `unknown`
+
+```text
+Zhang, S., Song, Y ., Yang, J., Li, Y ., Han, B., and Tan, M. Detecting machine-generated texts by multi-population aware optimization for maximum mean discrepancy. InThe Twelfth International Conference on Learning Representations, 2024. Zhang, X., Zhao, J., and LeCun, Y . Character-level convolutional networks for text classification. InProceedings of the 29th International Conference on Neural Information Processing Systems - Volume 1, pp. 649–657, Cambridge, MA, USA, 2015. MIT Press. Zhao, X., Ananth, P. V ., Li, L., and Wang, Y .-X. Provable robust watermarking for AI-generated text. InThe Twelfth International Conference on Learning Representations, 2024. Zhou, H., Zhu, J., Xu, E., Ye, K., Yang, Y ., and Shi, C. Learn-to-distance: Distance learning for detect- ing llm-generated text. InThe Fourteenth International Conference on Learning Representations, 2026a. Zhou, H., Zhu, J., Ya
+```
+
+### Retrieved Chunk 3
 
 - Source: `Unsupervised and Distributional Detection of Machine-Generated Text.pdf`
 - Page: `1`
@@ -2314,7 +2326,7 @@ Running Title for Header masked prediction of text generated by large language m
 that of humans, which have a harder time picking up those statistical signals but are unbeaten so far when recognizing incoherence or factually wrong statements. Maronikolakis et al. (2020) obtains a similar conclusion that automatic models are better than humans for detecting fake headlines. Studying the performance of automatic classiﬁers, Bakhtin et al. (2021) provide an exhaustive analysis varying generator and discriminator architecture as well as training data, concluding that performance of the discrimiantor is high if it is trained on data from the same domain. However, any domain shift affects it in a severe way. Dugan et al. (2020) focuses specif- ically on the problem of detecting the boundary, from which moment the human generated prompt stops and the machine-written text starts. The fact that pre-trained language models have statistical patterns which differ from human-gener
 ```
 
-### Retrieved Chunk 3
+### Retrieved Chunk 4
 
 - Source: `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`
 - Page: `0`
@@ -2329,22 +2341,22 @@ that of humans, which have a harder time picking up those statistical signals bu
 proficiency of human writers, can be easily calculated for any language, and can robustly separate natural and AI-generated texts regardless of the generation model and sampling method. In this work, we propose such an invariant for human- written texts, namely the intrinsic dimensionality of the manifold underlying the set of embeddings for a given text sample. We show that the average intrinsic dimensionality of fluent texts in a natural language is hovering around the value 9 for several alphabet-based languages and around 7 for Chinese, while the average intrinsic dimensionality of AI-generated texts for each language is ≈ 1.5 lower, with a clear statistical separation between human-generated and AI-generated distri- butions. This property allows us to build a score-based artificial text detector. The proposed detector’s accuracy is stable over text domains, generator models, and hum
 ```
 
-### Retrieved Chunk 4
+### Retrieved Chunk 5
 
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `2`
-- Chunk ID: `1517`
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `0`
+- Chunk ID: `210`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `12.119847441206419`
+- BM25 Score: `12.857606390427538`
 - Reranker Score: `unknown`
 
 ```text
-Running Title for Header 2 Related Work Recent research has shown promising results in the development of detection methods. The existing detectors are built on the assumption that there is a distributional difference between human-generated texts and AI-generated texts. These differences are typically identified by training classifiers or using statistical information. Classifier-based detectors. Classifier-based detectors are commonly used in natural language processing detection paradigms, especially in fake news and misinformation detection [3]. Guo et al. [4] proposed the ChatGPT Detector, where they initially constructed a dataset consisting of ChatGPT conversations with human questions and answers, and trained a text detection classifier based on this dataset. The use of these methods requires substantial data collection and incurs the cost of training these classifier models.
+text evaluated using the distribution function of a given source LLM. However, relying solely on log probabilities can be sub-optimal. In response, we introduce AdaDetectGPT – a novel classifier that adaptively learns a witness function from training data to enhance the performance of logits-based detectors. We provide statistical guarantees on its true positive rate, false positive rate, true negative rate and false negative rate. Extensive numerical studies show AdaDetectGPT nearly uniformly improves the state-of-the-art method in various combination of datasets and LLMs, and the improvement can reach up to 37%. A python implementation of our method is available athttps://github.com/Mamba413/AdaDetectGPT. 1 Introduction Large language models (LLMs) such as ChatGPT (OpenAI, 2022), PaLM (Chowdhery et al., 2023), Llama (Grattafiori et al., 2024) and DeepSeek (Bi et al., 2024) have revolut
 ```
 
-### Retrieved Chunk 5
+### Retrieved Chunk 6
 
 - Source: `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
 - Page: `2`
@@ -2357,21 +2369,6 @@ Running Title for Header 2 Related Work Recent research has shown promising resu
 
 ```text
 human-authored and AI-generated sentences. To ensure diversity while preserving coherence, we randomly select the first to third sentences from the human-generated documents as the prompt for subsequent AI sentence generation. Specifically, when generating the AI component of a document using language models such as GPT- 2, we utilize the prompt obtained via the above process to get the corresponding AI-generated sentences. In the case of instruction-tuned models like GPT-3.5-turbo, we provide specific instruction to assure the generation. We show instruction details in Appendix D. Regarding open-source models, we gather the AI-generated portions of a document from GPT-2 (Radford et al., 2019), GPT-J (Wang and Komatsuzaki, 2021), GPT-Neo (Black et al., 2022), and LLaMA (Touvron et al., 2023). For models which provide only partial access, we collect data from GPT-3.5-turbo, an instruction
-```
-
-### Retrieved Chunk 6
-
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `0`
-- Chunk ID: `1512`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `unknown`
-- BM25 Score: `11.007300104154128`
-- Reranker Score: `unknown`
-
-```text
-challenges, not only rendering equitable student assessment more complex but also impeding student learning while amplifying the presence of persuasive yet erroneous news articles. Unfortunately, when classifying AI-generated and human-generated texts, humans perform only slightly better than random guessing [1], leading researchers to consider automated detection that can identify signals that are difficult for humans to detect. The foundation of current text detection is based on an assumption that there is a distributional difference between AI-generated texts and human-generated texts. These differences are typically ascertained by employing statistical information or training classifiers [9]. Recent research has delved deeper into understanding the unique capabilities of large language models, such as self-consistency as introduced by Wang et al. [8]. Wang et al. [8] introduced a ne
 ```
 
 ### Retrieved Chunk 7
@@ -2416,7 +2413,7 @@ estimation, so we use this model for all further experiments in English, and XLM
 - Dense Score: `unknown`
 - Vector Score: `0.334208607673645`
 - BM25 Score: `unknown`
-- Reranker Score: `5.3276166915893555`
+- Reranker Score: `5.327617168426514`
 
 ```text
 existing methods, such as DetectGPT and Sniffer, fail to solve sentence-level AIGT detection. Our proposed SeqXGPT not only obtains promising results in both sentence and document-level AIGT detection challenges, but also exhibits excellent generalization on out-of-distribution datasets. 2 Background The proliferation of Large Language Models (LLMs) such as GPT-4 has given rise to increased concerns about the potential misuse of AI- generated texts (AIGT) (Brown et al., 2020; Zhang et al., 2022; Scao et al., 2022). This emphasizes the necessity for robust detection mechanisms to ensure security and trustworthiness of LLM applications. 2.1 Principal Approaches to AIGT Detection Broadly, AIGT detection methodologies fall into two primary categories: 1. Supervised Learning: This involves training models on labeled datasets to distinguish between human and AI-generated texts. Notable efforts
@@ -2424,20 +2421,35 @@ existing methods, such as DetectGPT and Sniffer, fail to solve sentence-level AI
 
 ### Retrieved Chunk 2
 
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `0`
-- Chunk ID: `1509`
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `1`
+- Chunk ID: `215`
 - Chunk Type: `main`
 - Dense Score: `unknown`
-- Vector Score: `0.3698674142360687`
-- BM25 Score: `10.514022352440065`
-- Reranker Score: `4.409615516662598`
+- Vector Score: `unknown`
+- BM25 Score: `18.72273401446101`
+- Reranker Score: `5.063398361206055`
 
 ```text
-DETECT GPT-SC: I MPROVING DETECTION OF TEXT GENERATED BY LARGE LANGUAGE MODELS THROUGH SELF -C ONSISTENCY WITH MASKED PREDICTIONS Rongsheng Wang Macao Polytechnic University p2213046@mpu.edu.mo Qi Li Iowa State University qli@iastate.edu Sihong Xie∗ HKUST (GZ) sihongxie@hkust-gz.edu.cn ABSTRACT General large language models (LLMs) such as ChatGPT have shown remarkable success, but it has also raised concerns among people about the misuse of AI-generated texts. Therefore, an important question is how to detect whether the texts are generated by ChatGPT or by humans. Existing detectors are built on the assumption that there is a distribution gap between human-generated and AI-generated texts. These gaps are typically identified using statistical information or classifiers. In contrast to prior research methods, we find that large language models such as ChatGPT exhibit strong self-consiste
+compute the logits – AdaDetectGPT achieves improvements over the best alternative in area under the curve (AUC) ranging from 12.5% to 37%. In black-box settings, where the source and target LLMs differ, it similarly offer gains of up to 20%. Theoretically, we provide statistical performance guarantees for AdaDetectGPT, deriving finite- sample error bounds for its TNR, FNR, true positive rate (TPR) and false positive rate (FPR). Existing literature on logits-based detectors generally lacks systematic statistical analysis. Our work aims to fill in this gap and contribute toward a deeper understanding of these methods in this emerging field, by offering a comprehensive analysis based on the aforementioned standard classification metrics. 1.1 Related works Existing methods for detecting machine-generated text generally fall into three categories: machine learning (ML)-based, statistics-based
 ```
 
 ### Retrieved Chunk 3
+
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `0`
+- Chunk ID: `209`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.37700194120407104`
+- BM25 Score: `11.511815394821955`
+- Reranker Score: `4.880607604980469`
+
+```text
+AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees Hongyi Zhou∗ Department of Mathematics Tsinghua University Beijing, China Jin Zhu∗ School of Mathematics University of Birmingham Birmingham, UK Pingfan Su Department of Statistics LSE London, UK Kai Ye Department of Statistics LSE London, UK Ying Yang Department of Statistics and Data Science Tsinghua University Beijing, China Shakeel A O B Gavioli-Akilagun† Department of Decision Analytics and Operations City University Hong Kong Hongkong, China Chengchun Shi† Department of Statistics LSE London, UK Abstract We study the problem of determining whether a piece of text has been authored by a human or by a large language model (LLM). Existing state of the art logits-based detectors make use of statistics derived from the log-probability of the observed text evaluated using the distribution function of a giv
+```
+
+### Retrieved Chunk 4
 
 - Source: `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`
 - Page: `6`
@@ -2446,13 +2458,13 @@ DETECT GPT-SC: I MPROVING DETECTION OF TEXT GENERATED BY LARGE LANGUAGE MODELS T
 - Dense Score: `unknown`
 - Vector Score: `0.32673242688179016`
 - BM25 Score: `10.9063954952778`
-- Reranker Score: `4.1260199546813965`
+- Reranker Score: `4.126020431518555`
 
 ```text
 estimation, so we use this model for all further experiments in English, and XLM-R of the same size for multilingual experiments. Artificial text detection. We show that intrinsic dimension can lead to a robust method of artificial text detection. In all experiments below, we use the one-feature thresholding classifier (see Section 4). Comparison with universal detectors. First, we show that our detector is the best among general- purpose methods designed to detect texts of any domain, generated by any AI model, without access to the generator itself. Such methods are needed, e.g., for plagiarism detection. To be applicable in real life, the algorithm should provide high artificial text detection rate while avoiding false accusations of real authors. Besides, it should be resistant to adversaries who transform the content generated by popular AI models to reduce the chance to be caught. 
 ```
 
-### Retrieved Chunk 4
+### Retrieved Chunk 5
 
 - Source: `SeqXGPT Sentence-Level AI-Generated Text Detection.pdf`
 - Page: `1`
@@ -2461,25 +2473,10 @@ estimation, so we use this model for all further experiments in English, and XLM
 - Dense Score: `unknown`
 - Vector Score: `0.3669587969779968`
 - BM25 Score: `unknown`
-- Reranker Score: `4.082741737365723`
+- Reranker Score: `4.082742214202881`
 
 ```text
 a perturbation-based method leveraging average per-token log probabilities. The recent work of Li et al. (2023) extends this further by studying multi-model detection through text perplexities, aiming to trace the precise LLM origin of texts. 2.2 Detection Task Formulations The AIGT detection tasks can be formulated in different setups: 1. Particular-Model Binary AIGT Detection: In this setup, the objective is to discriminate whether a text was produced by a specific known AI model or by a human. Both GPTZero and DetectGPT fall into this category. 2. Mixed-Model Binary AIGT Detection: Here, the detectors are designed to identify AI-generated content without the need to pinpoint the exact model of origin. 3https://gptzero.me/
-```
-
-### Retrieved Chunk 5
-
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `0`
-- Chunk ID: `1510`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.36708545684814453`
-- BM25 Score: `10.86510324664012`
-- Reranker Score: `4.067139148712158`
-
-```text
-self-consistency in text generation and continuation. Self-consistency capitalizes on the intuition that AI-generated texts can still be reasoned with by large language models using the same logical reasoning when portions of the texts are masked, which differs from human-generated texts. Using this observation, we subsequently proposed a new method for AI-generated texts detection based on self-consistency with masked predictions to determine whether a text is generated by LLMs. This method, which we call DetectGPT-SC. We conducted a series of experiments to evaluate the performance of DetectGPT-SC. In these experiments, we employed various mask scheme, zero-shot, and simple prompt for completing masked texts and self-consistency predictions. The results indicate that DetectGPT-SC outperforms the current state-of-the-art across different tasks. 1 Introduction Large language models (LLMs
 ```
 
 ### Retrieved Chunk 6
@@ -2499,21 +2496,6 @@ can efficiently conduct sentence-level AIGT detection. given text is written or 
 
 ### Retrieved Chunk 7
 
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `2`
-- Chunk ID: `1517`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.45481812953948975`
-- BM25 Score: `12.119847441206419`
-- Reranker Score: `4.031418323516846`
-
-```text
-Running Title for Header 2 Related Work Recent research has shown promising results in the development of detection methods. The existing detectors are built on the assumption that there is a distributional difference between human-generated texts and AI-generated texts. These differences are typically identified by training classifiers or using statistical information. Classifier-based detectors. Classifier-based detectors are commonly used in natural language processing detection paradigms, especially in fake news and misinformation detection [3]. Guo et al. [4] proposed the ChatGPT Detector, where they initially constructed a dataset consisting of ChatGPT conversations with human questions and answers, and trained a text detection classifier based on this dataset. The use of these methods requires substantial data collection and incurs the cost of training these classifier models.
-```
-
-### Retrieved Chunk 8
-
 - Source: `Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.pdf`
 - Page: `0`
 - Chunk ID: `2544`
@@ -2521,10 +2503,25 @@ Running Title for Header 2 Related Work Recent research has shown promising resu
 - Dense Score: `unknown`
 - Vector Score: `0.3520209789276123`
 - BM25 Score: `13.322657131256387`
-- Reranker Score: `3.2310054302215576`
+- Reranker Score: `3.231004238128662`
 
 ```text
 proficiency of human writers, can be easily calculated for any language, and can robustly separate natural and AI-generated texts regardless of the generation model and sampling method. In this work, we propose such an invariant for human- written texts, namely the intrinsic dimensionality of the manifold underlying the set of embeddings for a given text sample. We show that the average intrinsic dimensionality of fluent texts in a natural language is hovering around the value 9 for several alphabet-based languages and around 7 for Chinese, while the average intrinsic dimensionality of AI-generated texts for each language is ≈ 1.5 lower, with a clear statistical separation between human-generated and AI-generated distri- butions. This property allows us to build a score-based artificial text detector. The proposed detector’s accuracy is stable over text domains, generator models, and hum
+```
+
+### Retrieved Chunk 8
+
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `15`
+- Chunk ID: `285`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.37250983715057373`
+- BM25 Score: `14.140384631025539`
+- Reranker Score: `3.227660655975342`
+
+```text
+Zhang, S., Song, Y ., Yang, J., Li, Y ., Han, B., and Tan, M. Detecting machine-generated texts by multi-population aware optimization for maximum mean discrepancy. InThe Twelfth International Conference on Learning Representations, 2024. Zhang, X., Zhao, J., and LeCun, Y . Character-level convolutional networks for text classification. InProceedings of the 29th International Conference on Neural Information Processing Systems - Volume 1, pp. 649–657, Cambridge, MA, USA, 2015. MIT Press. Zhao, X., Ananth, P. V ., Li, L., and Wang, Y .-X. Provable robust watermarking for AI-generated text. InThe Twelfth International Conference on Learning Representations, 2024. Zhou, H., Zhu, J., Xu, E., Ye, K., Yang, Y ., and Shi, C. Learn-to-distance: Distance learning for detect- ing llm-generated text. InThe Fourteenth International Conference on Learning Representations, 2026a. Zhou, H., Zhu, J., Ya
 ```
 
 
@@ -2560,20 +2557,20 @@ These should usually be similar because all three settings use the same paper-le
 #### Hybrid Candidate Papers
 
 1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
-   - Title: AdaDetectGPT Adaptive Detection of LLM Generated Text with Statistical Guarantees
-   - Paper score: `0.6420181393623352`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.6266366839408875`
 
-2. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+2. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.6826760172843933`
+
+3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.6681676506996155`
+   - Paper score: `0.6828979849815369`
 
-3. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
+4. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.6825336217880249`
-
-4. `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-   - Title: GPT who AnInformation Density based Machine Generated Text Detector
-   - Paper score: `0.6846862435340881`
+   - Paper score: `0.6932278871536255`
 
 
 ### Selected Papers
@@ -2581,58 +2578,58 @@ These should usually be similar because all three settings use the same paper-le
 #### Dense-only Selected Papers
 
 1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
-   - Title: AdaDetectGPT Adaptive Detection of LLM Generated Text with Statistical Guarantees
-   - Paper score: `0.6420181393623352`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.6266366839408875`
 
-2. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+2. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.6826760172843933`
+
+3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.6681676506996155`
+   - Paper score: `0.6828979849815369`
 
-3. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
+4. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.6825336217880249`
-
-4. `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-   - Title: GPT who AnInformation Density based Machine Generated Text Detector
-   - Paper score: `0.6846862435340881`
+   - Paper score: `0.6932278871536255`
 
 
 #### BM25-only Selected Papers
 
 1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
-   - Title: AdaDetectGPT Adaptive Detection of LLM Generated Text with Statistical Guarantees
-   - Paper score: `0.6420181393623352`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.6266366839408875`
 
-2. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+2. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.6826760172843933`
+
+3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.6681676506996155`
+   - Paper score: `0.6828979849815369`
 
-3. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
+4. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.6825336217880249`
-
-4. `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-   - Title: GPT who AnInformation Density based Machine Generated Text Detector
-   - Paper score: `0.6846862435340881`
+   - Paper score: `0.6932278871536255`
 
 
 #### Hybrid Selected Papers
 
 1. `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
-   - Title: AdaDetectGPT Adaptive Detection of LLM Generated Text with Statistical Guarantees
-   - Paper score: `0.6420181393623352`
+   - Title: AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+   - Paper score: `0.6266366839408875`
 
-2. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+2. `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+   - Title: DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+   - Paper score: `0.6826760172843933`
+
+3. `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
    - Title: Fast DetectGPT Efficient Zero Shot Detection of Machine Generated Text via Conditional Probability Curvature
-   - Paper score: `0.6681676506996155`
+   - Paper score: `0.6828979849815369`
 
-3. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
+4. `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
    - Title: DetectGPT SC Improving Detection of Text Generated by Large Language Models through Self Consistency with Masked Predictions
-   - Paper score: `0.6825336217880249`
-
-4. `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-   - Title: GPT who AnInformation Density based Machine Generated Text Detector
-   - Paper score: `0.6846862435340881`
+   - Paper score: `0.6932278871536255`
 
 
 ### Summary Statistics
@@ -2650,19 +2647,19 @@ These should usually be similar because all three settings use the same paper-le
 
 - `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 3 chunks
 - `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 3 chunks
-- `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`: 2 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 2 chunks
 
 #### BM25 only
 
 - `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 3 chunks
-- `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`: 3 chunks
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 2 chunks
+- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 3 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 2 chunks
 
 #### Hybrid + reranker
 
-- `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 3 chunks
-- `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`: 3 chunks
-- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 2 chunks
+- `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`: 4 chunks
+- `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`: 3 chunks
+- `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`: 1 chunks
 
 ### Dense-only Retrieved Chunks
 
@@ -2758,32 +2755,32 @@ Published as a conference paper at ICLR 2024 used in Table 2, sampling with the 
 
 ### Retrieved Chunk 7
 
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-- Page: `5`
-- Chunk ID: `2508`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `6`
+- Chunk ID: `1474`
 - Chunk Type: `main`
-- Dense Score: `0.5744547843933105`
-- Vector Score: `0.5744547843933105`
+- Dense Score: `0.5336488485336304`
+- Vector Score: `0.5336488485336304`
 - BM25 Score: `unknown`
 - Reranker Score: `unknown`
 
 ```text
-ZeroGPT (ZeroGPT, 2023), OpenAI’s detector (So- laiman et al., 2019), Li et al. (2023)’s LongFormer- based detector 7 tuned for the InTheWild bench- mark (we refer to this method as “ITW”), a sty- lometric detector8 (Abbasi and Chen, 2008) and fine-tuned BERT9 (Kenton and Toutanova, 2019). We are unable to report results for exhaustively all methods across all datasets due to inherent inap- plicability in certain task settings. For example, most SOTA text detectors cannot be applied to the ArguGPT dataset as it only contains text written by multiple machines, while most text detectors are designed to differentiate between human-written and machine-generated texts. Beyond such limita- 4https://github.com/eric-mitchell/detect-gpt 5https://github.com/HendrikStrobelt/ detecting-fake-text 6https://github.com/BurhanUlTayyab/GPTZero 7https://github.com/yafuly/DeepfakeTextDetect 8https://github.
+tectGPT maintains detection AUROC above 0.8 even when nearly a quarter of the text in model samples has been re- placed. Unsurprisingly, almost all methods show a gradual degradation in performance as the sample is more heavily revised. The entropy baseline shows surprisingly robust performance in this setting (althought it is least accurate on average), even slightly improving detection performance up to 24% replacement. DetectGPT shows the strongest detection performance for all revision levels. Impact of alternative decoding strategies on detection. While Table 1 suggests that DetectGPT is effective for 5We reduce the number of evaluation samples from 500 in our main experiments to reduce the API costs of these experiments. XSum SQuAD WritingPrompts Method top- p top-k top-p top-k top-p top-k log p(x) 0.92 0.87 0.89 0.85 0.98 0.96 Rank 0.76 0.76 0.81 0.80 0.84 0.83 LogRank 0.93* 0.90*
 ```
 
 ### Retrieved Chunk 8
 
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-- Page: `6`
-- Chunk ID: `2511`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `12`
+- Chunk ID: `1508`
 - Chunk Type: `main`
-- Dense Score: `0.5855199098587036`
-- Vector Score: `0.5855199098587036`
+- Dense Score: `0.5422935485839844`
+- Vector Score: `0.5422935485839844`
 - BM25 Score: `unknown`
 - Reranker Score: `unknown`
 
 ```text
-Task Type Domain GPTZero ZeroGPT OpenAI Detector DetectGPT BERT ITW GPT -who CS 0.30 0.67 0.81 0.58 0.99 0.98 0.99 PHX 0.25 0.68 0.70 0.54 0.99 0.98 0.98Task 1 HSS 0.72 0.92 0.63 0.57 0.99 0.96 0.98 CS 0.17 0.25 0.64 0.16 0.99 0.81 0.84 PHX 0.06 0.10 0.24 0.17 0.96 0.76 0.90Task 2 HSS 0.44 0.62 0.27 0.20 0.97 0.29 0.80 CS 0.02 0.03 0.06 0.03 0.97 0.38 0.63 PHX 0.02 0.03 0.04 0.05 0.97 0.31 0.75Task 3 HSS 0.20 0.25 0.06 0.06 0.99 0.08 0.62 Average F1 0.24 0.40 0.38 0.26 0.98 0.62 0.83 Table 2: Test Set Performance (F1 Scores) of different machine text detectors on the GPA Benchmark. Best performance are in bold, and second best underlined. Human v. GROVER GTLR GPTZero DetectGPT RoBERTa BERT ITW Stylometry GPT -who GPT-1 0.58 0.47 0.47 0.51 0.98 0.95 0.92 0.99 1.00 GPT-2_small 0.57 0.51 0.51 0.51 0.71 0.75 0.47 0.75 0.88 GPT-2_medium 0.56 0.49 0.50 0.52 0.75 0.65 0.47 0.72 0.87 GPT-2_large
+Table 5. Top-k sampling evaluation with k = 40 . DetectGPT generally provides the most accurate performance (highest AUROC), although the gap is narrowed comparing to direct sampling, presumably because top-k generations are more generic. 13
 ```
 
 
@@ -2836,50 +2833,20 @@ n100 150 200 250 300 350 Runtime (Memory) 9.28(0.36) 23.45(0.37) 40.19(0.37) 44.
 
 ### Retrieved Chunk 4
 
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-- Page: `8`
-- Chunk ID: `2521`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `3`
+- Chunk ID: `1455`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `17.513356480700914`
+- BM25 Score: `16.229959214625115`
 - Reranker Score: `unknown`
 
 ```text
-as per their own language distribution. Irrespective of its alignment with what theory suggests, we find that the UID-based features are very useful in distinguishing authors, which is the focus of this work. This is an important consid- eration and helps disentangle the utility of UID- inspired features from the cognitive plausibility of those feature calculations or UID approximations. Thus, this operationalization of UID does not imply that humans are “less human” or machines are “more human” as it is an approximation of a theory that states that humans are uniform as per their language distribution. It does not have any further implications for machine-generated text and is unable to predict what happens in the case of machines. We find that UID-based features can cap- ture differences between text generated by not only humans and models but also capture differ- ences between multipl
+used to estimate the expectation effectively allows for trading off between accuracy and speed. AUROC by around 0.020, so we use this normalized version of the perturbation discrepancy in our experiments. The resulting method, DetectGPT, is summarized in Alg. 1. Hav- ing described an application of the perturbation discrepancy to machine-generated text detection, we next provide an interpretation of this quantity. Interpretation of perturbation discrepancy as curvature While Figure 3 suggests that the perturbation discrepancy may be useful, it is not immediately obvious what it mea- sures. In this section, we show that the perturbation dis- crepancy approximates a measure of the local curvature of the log probability function near the candidate passage, more specifically, that it is proportional to the negative trace of the Hessian of the log probability function. 2 To han- dle the non-d
 ```
 
 ### Retrieved Chunk 5
-
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-- Page: `3`
-- Chunk ID: `2500`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `unknown`
-- BM25 Score: `16.147280627743424`
-- Reranker Score: `unknown`
-
-```text
-∑ t (u(yt)−µ)2 (3) From this formulation, a perfectly uniform article would have the same surprisal at every token and hence 0 UID (variance) score. 3. UID (Difference ) score or local UID score of an article ( y) is calculated as the average of the difference in surprisals of every two consecutive tokensµ(yt−1) andµ(yt) : UID(y) = 1 |y|−1 |y|∑ t=2 abs(µ(yt)−µ(yt−1)) (4) 4. UID (Difference 2) score is defined as the average of the squared difference in surprisals of every two consecutive tokensµ(yt−1) and µ(yt) : UID(y) = 1 |y|−1 |y|∑ n=2 (µ(yt)−µ(yt−1))2 (5) From this formulation, both local measures of UID capture any sudden bursts of unevenness in how information is dispersed in consecutive tokens of the articles. Maximum and minimum UID spans In addi- tion to previously used approximations of UID, we also craft a new set of features using the most and least uniform segments of an art
-```
-
-### Retrieved Chunk 6
-
-- Source: `GPT-who AnInformation Density-based Machine-Generated Text Detector.pdf`
-- Page: `7`
-- Chunk ID: `2517`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `unknown`
-- BM25 Score: `15.286216108410311`
-- Reranker Score: `unknown`
-
-```text
-the case in the latter (Jawahar et al., 2020). Despite this, GPT -whocan exceed fine-tuned LM perfor- mance by 10% for 2 benchmarks. 4.5 Running Time We measured the time taken for the one-time train- ing or fine-tuning and inference for 6 testbeds from the InTheWild Dataset (the largest of all our bench- marks). We compare the average running times of DetectGPT, BERT, GPT -whoand a stylomet- ric detector in Table 6 and find that GPT -whois the fastest as it eliminates the need for any LM fine-tuning and makes a single inference call per text sample. Other methods require either LM fine- tuning or multiple inference calls (for example, De- tectGPT). This computational load is greater than a single forward inference pass through one LM (GPT2) followed by logistic regression which is what GPT -whorequires. Method One-Time Training Inference DetectGPT >10 hours 60 sec BERT ∼1.5 hours 2 sec 
-```
-
-### Retrieved Chunk 7
 
 - Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
 - Page: `2`
@@ -2894,7 +2861,7 @@ the case in the latter (Jawahar et al., 2020). Despite this, GPT -whocan exceed 
 Running Title for Header 2 Related Work Recent research has shown promising results in the development of detection methods. The existing detectors are built on the assumption that there is a distributional difference between human-generated texts and AI-generated texts. These differences are typically identified by training classifiers or using statistical information. Classifier-based detectors. Classifier-based detectors are commonly used in natural language processing detection paradigms, especially in fake news and misinformation detection [3]. Guo et al. [4] proposed the ChatGPT Detector, where they initially constructed a dataset consisting of ChatGPT conversations with human questions and answers, and trained a text detection classifier based on this dataset. The use of these methods requires substantial data collection and incurs the cost of training these classifier models.
 ```
 
-### Retrieved Chunk 8
+### Retrieved Chunk 6
 
 - Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
 - Page: `0`
@@ -2907,6 +2874,36 @@ Running Title for Header 2 Related Work Recent research has shown promising resu
 
 ```text
 challenges, not only rendering equitable student assessment more complex but also impeding student learning while amplifying the presence of persuasive yet erroneous news articles. Unfortunately, when classifying AI-generated and human-generated texts, humans perform only slightly better than random guessing [1], leading researchers to consider automated detection that can identify signals that are difficult for humans to detect. The foundation of current text detection is based on an assumption that there is a distributional difference between AI-generated texts and human-generated texts. These differences are typically ascertained by employing statistical information or training classifiers [9]. Recent research has delved deeper into understanding the unique capabilities of large language models, such as self-consistency as introduced by Wang et al. [8]. Wang et al. [8] introduced a ne
+```
+
+### Retrieved Chunk 7
+
+- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
+- Page: `2`
+- Chunk ID: `1521`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `unknown`
+- BM25 Score: `13.585605327591832`
+- Reranker Score: `unknown`
+
+```text
+model that represents words as vectors and captures the semantic relationships between them. By calculating the cosine similarity between P ( ˆXi), i = 1, 2, 3 and ˆXi, i = 1, 2, 3 in the vector space, we can evaluate their semantic similarity. The cosine similarity is shown as follows: BARTSCORE = mX t=1 ωt log p (yt | y< t, x, θ) (1) Finally, we utilize BARTScore [11] to calculate the similarity between P ( ˆX) and X, which enables us to assess the similarity between the generated texts and the original text. BARTScore compares the similarity between two text sequences and provides a comprehensive similarity score. It evaluates the overall similarity between the generated texts and the original text, including aspects such as syntactic structure and contextual coherence. The BARTScore is shown as follows: Cosine Similarity = P ( ˆX) · XP ( ˆX)  · |X| (2) 3
+```
+
+### Retrieved Chunk 8
+
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `7`
+- Chunk ID: `1482`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `unknown`
+- BM25 Score: `13.554880391797843`
+- Reranker Score: `unknown`
+
+```text
+ples. A threshold of slightly below 0.1 separates human and model texts across data distributions, which is important for practical scenarios in which a passage may be analyzed with- out knowing its domain a priori. Finally, Figure 10 shows an analysis of DetectGPT’s performance as a function of pas- sage length. We bin the paired human- and model-generated sequences by their average length into three bins of equal size (bottom/middle/top third), and plot the AUROC within each bin. The relationship between detection performance and passage length generally depends on the dataset and model (or tokenizer). For very long sequences, DetectGPT may see reduced performance because our implementation of DetectGPT applies all T5 mask-filling perturbations at once, and T5 may fail to track many mask tokens at once. By applying perturbations in multiple sequential rounds of smaller numbers of masks
 ```
 
 
@@ -2959,6 +2956,21 @@ text evaluated using the distribution function of a given source LLM. However, r
 
 ### Retrieved Chunk 4
 
+- Source: `AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf`
+- Page: `7`
+- Chunk ID: `247`
+- Chunk Type: `main`
+- Dense Score: `unknown`
+- Vector Score: `0.443564236164093`
+- BM25 Score: `unknown`
+- Reranker Score: `2.6607179641723633`
+
+```text
+evaluate AdaDetectGPT, we compute the AUC on each of the five datasets, with its witness function bwtrained on two randomly selected datasets that differ from the test dataset. Benchmark methods.In white-box settings, we compare the proposed AdaDetectGPT againsteight state-of-the-art detectors: Likelihood, Entropy, LogRank(Gehrmann et al., 2019), LogRank Ratio (LRR, Su et al., 2023), DetectGPT(Mitchell et al., 2023) and its variants Normalized Perturbed log Rank (NPR, Su et al., 2023), Fast-DetectGPT(Bao et al., 2024), DNAGPT(Yang et al., 2024b). In black-box settings, we further compare against RoBERTaBaseand RoBERTaLarge(Solaiman et al., 2019), Binoculars(Hans et al., 2024), RADAR(Hu et al., 2023), and BiScope(Guo et al., 2024a), but omitDetectGPT,NPRandDNAGPTdue to their high computational cost. This yieldstenbaseline algorithms. We measure the detection power of each detector using A
+```
+
+### Retrieved Chunk 5
+
 - Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
 - Page: `2`
 - Chunk ID: `1519`
@@ -2972,64 +2984,49 @@ text evaluated using the distribution function of a given source LLM. However, r
 of watermarks is also a challenge we need to address. However, with the emergence of ChatGPT, an innovative statistical detection method called DetectGPT [5] has been developed. Its principle is that text generated by the model typically resides in the negative curvature region of the model’s log probability. DetectGPT [ 5] generates and compares multiple variants of model-generated texts to determine whether the texts are machine-generated based on the log probabilities of the original texts and these variants. DetectGPT [5] outperforms the vast majority of existing zero-shot methods in terms of model sample detection, achieving very high AUC. It is based on this concept that DetectGPT-SC was proposed. 3 Methodology Predefined definition X is the original input text. ˆX is the sentence masked within X, which can also be referred to as "<mask>". P ( ˆX) is the mask content predicted by C
 ```
 
-### Retrieved Chunk 5
-
-- Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
-- Page: `18`
-- Chunk ID: `2284`
-- Chunk Type: `main`
-- Dense Score: `unknown`
-- Vector Score: `0.5284339189529419`
-- BM25 Score: `unknown`
-- Reranker Score: `1.4515247344970703`
-
-```text
-RoBERTa-based classifiers for the detection of GPT-3 generations. In contrast to DetectGPT, which employs the OpenAI API to assess perturbations, we utilize delegate models (specifically, GPT-2, Neo-2.7, and GPT-J) to identify GPT-3 generations. Fast-DetectGPT outperforms supervised RoBERTa-base, RoBERTa-large, and GPTZero classifiers, achieving higher detection accuracy across the three datasets. On average, it improves the AUROC by 0.0310 AUROC (a relative increase of 20%). Conversely, DetectGPT in the white-box setting (us- ing T5-11B/GPT-3) achieves superior detection accuracy on PubMedQA but lags behind on XSum and WritingPrompt compared to RoBERTa-large. In the black-box setting (T5-11B/Neo-2.7), De- tectGPT experiences a significant reduction in detection accuracy, averaging 0.0750 AUROC less. These findings emphasize that Fast-DetectGPT, operating in the black-box setting, offers
-```
-
 ### Retrieved Chunk 6
 
-- Source: `DetectGPT-SC Improving Detection of Text Generated by Large Language Models through Self-Consistency with Masked Predictions.pdf`
-- Page: `2`
-- Chunk ID: `1520`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `12`
+- Chunk ID: `1508`
 - Chunk Type: `main`
 - Dense Score: `unknown`
-- Vector Score: `unknown`
-- BM25 Score: `12.04929987533388`
-- Reranker Score: `1.359163522720337`
+- Vector Score: `0.5422935485839844`
+- BM25 Score: `unknown`
+- Reranker Score: `1.9752681255340576`
 
 ```text
-"<mask>". P ( ˆX) is the mask content predicted by ChatGPT. DetectGPT-SC is based on the hypothesis that AI-generated texts can still undergo reasoning by large language models using the same logical reasoning process even when certain portions of the texts are masked, which distinguishes it from texts generated by humans. DetectGPT-SC is shown in Figure 1, by masking the input text X multiple times, we obtain ˆX1, ˆX2, and ˆX3, which represent the masked content in X. Simultaneously, we replace the corresponding positions in the input text X with the "<mask>" token. Then, we utilize ChatGPT to generate completions for the masked ˆX1, ˆX2, and ˆX3, resulting in new inferred results: P ( ˆX1), P ( ˆX2), and P ( ˆX3). Next, we employ cosine similarity and Word2Vec to compute the similarity betweenP ( ˆXi), i = 1, 2, 3 and ˆXi, i = 1, 2, 3. Word2Vec is a word embedding model that represents
+Table 5. Top-k sampling evaluation with k = 40 . DetectGPT generally provides the most accurate performance (highest AUROC), although the gap is narrowed comparing to direct sampling, presumably because top-k generations are more generic. 13
 ```
 
 ### Retrieved Chunk 7
 
-- Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
 - Page: `5`
-- Chunk ID: `2225`
+- Chunk ID: `1470`
 - Chunk Type: `main`
 - Dense Score: `unknown`
 - Vector Score: `unknown`
-- BM25 Score: `11.2417369246014`
-- Reranker Score: `0.7047315239906311`
+- BM25 Score: `12.393047077123628`
+- Reranker Score: `1.8043674230575562`
 
 ```text
-SQuAD, and WritingPrompts from detailed Table 5 in Appendix D.1. Typically, the source model is employed for scoring, except that DetectGPT (T5-3B/Neo-2.7) and Fast-DetectGPT (GPT-J/Neo- 2.7) in a black-box setting utilize a surrogate Neo-2.7 model for scoring. While DetectGPT leverages T5-3B for perturbation generation, Fast-DetectGPT either resorts to the source model or a surrogate GPT-J for sample generation. † represents the second-best score. ♢ indicates methods that invoke models multiple times, thereby significantly increasing computational demands. We evaluate the methods on machine-generated text produced by different source models from 1.3B to 1,800B, described in Appendix C.1. We call most of the models locally except GPT-3, ChatGPT, and GPT-4 through OpenAI API. Baselines. For zero-shot classifiers, we mainly compare Fast-DetectGPT withDetectGPT (Mitchell et al., 2023), as w
+like English news, but perform significantly worse than zero- shot methods in the case of English scientific writing and fail altogether for German writing. This finding echoes past work showing that language models trained for machine- generated text detection overfit to their training data (source model, decoding strategy, topic, language, etc.; Uchendu et al. (2020); Ippolito et al. (2020); Jawahar et al. (2020)). In contrast, zero-shot methods generalize relatively easily to new languages and domains; DetectGPT’s performance in particular is mostly unaffected by the change in language from English to German. While our experiments have shown that DetectGPT is ef- fective on a variety of domains and models, it is natural to wonder if it is effective for the largest publicly-available LMs. Therefore, we also evaluate multiple zero-shot and su- pervised methods on two 175B parameter mode
 ```
 
 ### Retrieved Chunk 8
 
-- Source: `Fast-DetectGPT Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.pdf`
-- Page: `18`
-- Chunk ID: `2283`
+- Source: `DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf`
+- Page: `8`
+- Chunk ID: `1486`
 - Chunk Type: `main`
 - Dense Score: `unknown`
-- Vector Score: `0.5024181604385376`
-- BM25 Score: `12.654261416186865`
-- Reranker Score: `0.5604941844940186`
+- Vector Score: `0.581191897392273`
+- BM25 Score: `unknown`
+- Reranker Score: `1.5131006240844727`
 
 ```text
-Fast-DetectGPT (GPT-J/Neo-2.7) 0.9396 0.9492 0.7225 0.8704* Fast-DetectGPT (GPT-J/GPT-J) 0.9329* 0.9568 0.6664 0.8520 Table 7: Detection of GPT-3 generations, evaluated in AUROC. Fast-DetectGPT in the black-box settings (using local models) significantly outperforms DetectGPT in both the black-box setting and the white-box setting (using GPT-3) on News (XSum) and story (WritingPrompts). Fast-DetectGPT uses 6B GPT-J to generate samples and models from 1.5B GPT-2 to 6B GPT-J to score samples, while DetectGPT uses 11B T5 to generate perturbations and models from 1.5B GPT-2 to 6B GPT-J, and GPT-3 service to score them.♢ – we report the official scores from Mitchell et al. (2023) instead of rerunning the experiments after confirming the consistency on RoBERTa-base/large. Table 7 presents a comparison between Fast-DetectGPT, zero-shot DetectGPT, and supervised RoBERTa-based classifiers for the
+Limitations. One limitation of probability-based methods for zero-shot machine-generated text detection (like Detect- GPT) is the white-box assumption that we can evaluate log probabilities of the model(s) in question. For models be- hind APIs that do provide probabilities (such as GPT-3), evaluating probabilities nonetheless costs money. Another assumption of DetectGPT is access to a reasonable pertur- bation function. While in this work, we use off-the-shelf mask-filling models such as T5 and mT5 (for non-English languages), some domains may see reduced performance if existing mask-filling models do not well represent the space of meaningful rephrases, reducing the quality of the curvature estimate. While DetectGPT provides the best available detection performance for PubMedQA, its drop in performance compared to other datasets may be a result Average length 0.985 0.990 0.995AUROC gpt-
 ```
 
 
