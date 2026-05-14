@@ -18,6 +18,8 @@ if str(CURRENT_DIR) not in sys.path:
 from reranker import CrossEncoderReranker
 from bm25_retriever import BM25ChunkRetriever
 
+from query_router import QueryRouter
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ENV_PATH = PROJECT_ROOT / ".env"
 
@@ -60,7 +62,7 @@ class EngineeredRAG:
             chunk_store=self.chunk_store,
             has_chunk_type=self.has_chunk_type,
         )
-
+        self.query_router = QueryRouter()
     # ------------------------------------------------------------------
     # Loading components
     # ------------------------------------------------------------------
@@ -441,7 +443,7 @@ class EngineeredRAG:
     # Full retrieval
     # ------------------------------------------------------------------
 
-    def retrieve(self, query, paper_k=4, chunk_k=8):
+    def retrieve(self, query, paper_k=None, chunk_k=None):
         """
         Full hierarchical retrieval.
 
@@ -450,15 +452,26 @@ class EngineeredRAG:
         Step 3: retrieve chunks from selected candidate papers.
         Step 4: rerank chunks.
         """
+        route = self.query_router.route(query)
+
+        if paper_k is None:
+            paper_k = route.paper_k
+
+        if chunk_k is None:
+            chunk_k = route.chunk_k
+
         candidate_papers = self.retrieve_candidate_papers(
             query=query,
             k=paper_k,
         )
 
-        mode = self.decide_retrieval_mode(
-            query=query,
-            candidates=candidate_papers,
-        )
+        if route.retrieval_mode == "global":
+            mode = "global"
+        else:
+            mode = self.decide_retrieval_mode(
+                query=query,
+                candidates=candidate_papers,
+            )
 
         if mode == "specific" and candidate_papers:
             selected_papers = candidate_papers[:1]
@@ -478,11 +491,19 @@ class EngineeredRAG:
                 candidate_papers=selected_papers,
                 total_k=chunk_k,
                 per_paper_fetch_k=10,
-                max_per_source=3,
+                max_per_source=route.max_per_source,
             )
 
         retrieval_info = {
             "mode": mode,
+            "query_route": {
+                "query_type": route.query_type,
+                "retrieval_mode": route.retrieval_mode,
+                "paper_k": route.paper_k,
+                "chunk_k": route.chunk_k,
+                "max_per_source": route.max_per_source,
+                "reason": route.reason,
+                },
             "candidate_papers": [
                 {
                     "source": p["source"],
@@ -548,6 +569,10 @@ Content:
         print("=" * 80)
         print("Retrieval Mode:")
         print(retrieval_info["mode"])
+
+        print("=" * 80)
+        print("Query Route:")
+        print(retrieval_info.get("query_route", {}))
 
         print("=" * 80)
         print("Candidate Papers:")
