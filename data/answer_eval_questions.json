@@ -1,0 +1,38 @@
+[
+  {
+    "id": "q1",
+    "question": "What AI-generated text detection methods are discussed in these papers?",
+    "question_type": "survey",
+    "expected_behavior": "summarize multiple methods across papers"
+  },
+  {
+    "id": "q2",
+    "question": "How does AdaDetectGPT work?",
+    "question_type": "specific_method",
+    "expected_behavior": "explain AdaDetectGPT based on retrieved sources"
+  },
+  {
+    "id": "q3",
+    "question": "How does DetectGPT detect machine-generated text?",
+    "question_type": "specific_method",
+    "expected_behavior": "explain DetectGPT based on retrieved sources"
+  },
+  {
+    "id": "q4",
+    "question": "Which methods provide statistical guarantees for AI-generated text detection?",
+    "question_type": "evidence",
+    "expected_behavior": "identify methods with statistical guarantees and cite evidence"
+  },
+  {
+    "id": "q5",
+    "question": "What is the difference between DetectGPT and AdaDetectGPT?",
+    "question_type": "comparison",
+    "expected_behavior": "compare the two methods using evidence from both papers"
+  },
+  {
+    "id": "q6",
+    "question": "Which methods use logits for AI-generated text detection?",
+    "question_type": "technical_term",
+    "expected_behavior": "identify logits-related methods if supported by the retrieved context"
+  }
+]
