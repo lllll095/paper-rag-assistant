@@ -1,424 +1,291 @@
-# Paper RAG Assistant
+# Paper RAG Assistant: An Engineered RAG System for Academic Papers
 
-This project is a simple Retrieval-Augmented Generation (RAG) system for academic papers.
+This project implements an engineered Retrieval-Augmented Generation (RAG) system for academic paper question answering.
 
-It can load PDF papers, split them into text chunks, build a vector database, retrieve relevant passages, and answer questions based on the retrieved context.
+The system supports PDF-based knowledge ingestion, hierarchical paper-level retrieval, hybrid dense/BM25 retrieval, cross-encoder reranking, query routing, source-grounded answer generation, and multi-level evaluation.
 
 ---
 
-## 1. Project Goal
+## 1. Project Overview
 
-The goal of this project is to build a minimal but complete RAG pipeline for academic paper question answering.
+The goal of this project is to build a practical RAG system for reading and analyzing academic papers.
 
-The overall pipeline is:
+Instead of using a simple flat vector search over all chunks, this project gradually upgrades the pipeline into a more engineering-oriented RAG system:
 
 ```text
 PDF papers
-    ↓
-Text extraction
-    ↓
-Text chunking
-    ↓
-Embedding
-    ↓
-Chroma vector database
-    ↓
-Semantic retrieval
-    ↓
-LLM-based question answering
-    ↓
-Answer with sources
+  ↓
+Text extraction and chunking
+  ↓
+Chunk-level vector index
+  ↓
+Paper-level catalog index
+  ↓
+Query routing
+  ↓
+Hierarchical retrieval
+  ↓
+Hybrid dense + BM25 retrieval
+  ↓
+Cross-encoder reranking
+  ↓
+Source-grounded answer generation
+  ↓
+Answer-level evaluation
 ```
-
-This project is part of my Week 1 RAG learning practice. The main purpose is to understand the basic workflow of a RAG system and implement a working prototype.
 
 ---
 
-## 2. Project Structure
+## 2. Key Features
+
+- PDF loading and text extraction
+- Text chunking with metadata
+- Chroma vector database
+- Paper-level catalog retrieval
+- Hierarchical retrieval
+- Dense embedding retrieval
+- BM25 keyword retrieval
+- Hybrid retrieval
+- Cross-encoder reranking
+- Query router for different question types
+- Source-grounded answer generation
+- Retrieval evaluation
+- Reranker ablation study
+- Hybrid retrieval evaluation
+- Query router evaluation
+- Answer-level evaluation
+- Streamlit demo interface
+
+---
+
+## 3. System Architecture
+
+The final RAG pipeline is:
+
+```text
+User Question
+  ↓
+Query Router
+  ↓
+Paper-level Retrieval
+  ↓
+Candidate Papers
+  ↓
+Dense Retrieval + BM25 Retrieval
+  ↓
+Merge Candidate Chunks
+  ↓
+Cross-Encoder Reranker
+  ↓
+Top-ranked Evidence Chunks
+  ↓
+LLM Answer Generation
+  ↓
+Answer with Sources
+```
+
+---
+
+## 4. Retrieval Design
+
+### 4.1 Paper-level Retrieval
+
+A paper catalog is built for document-level routing. Each paper is represented by:
+
+```text
+title
+source file
+abstract
+first-page excerpt
+manual metadata
+keywords
+aliases
+method summary
+```
+
+This helps the system decide which papers are relevant before retrieving chunks.
+
+### 4.2 Chunk-level Retrieval
+
+For each selected paper, the system retrieves candidate chunks using both:
+
+```text
+Dense retrieval: semantic embedding search
+BM25 retrieval: keyword-based lexical search
+```
+
+Dense retrieval captures semantic similarity, while BM25 is useful for exact method names and technical terms such as:
+
+```text
+DetectGPT
+AdaDetectGPT
+logits
+watermark
+AUROC
+FNR
+TNR
+statistical guarantees
+```
+
+### 4.3 Reranking
+
+After dense and BM25 candidates are merged, a cross-encoder reranker is used to re-score query-chunk pairs and select the most relevant evidence chunks.
+
+---
+
+## 5. Query Router
+
+The system includes a lightweight query router that classifies questions into different types:
+
+| Query Type | Example | Retrieval Strategy |
+|---|---|---|
+| method | How does AdaDetectGPT work? | Auto / specific paper |
+| comparison | What is the difference between DetectGPT and AdaDetectGPT? | Global multi-paper retrieval |
+| survey | What AI-generated text detection methods are discussed? | Global diverse retrieval |
+| evidence | Which methods provide statistical guarantees? | Global evidence retrieval |
+| experiment | What datasets are used? | Experiment-oriented retrieval |
+| general | Other questions | Automatic retrieval |
+
+---
+
+## 6. Evaluation
+
+The project includes several evaluation scripts:
+
+| Evaluation Script | Purpose |
+|---|---|
+| `eval_engineered_rag.py` | Evaluate hierarchical retrieval quality |
+| `eval_reranker_ablation.py` | Compare vector-only retrieval and reranker retrieval |
+| `eval_hybrid_retrieval.py` | Compare dense only, BM25 only, and hybrid retrieval |
+| `eval_query_router.py` | Evaluate query classification and routing |
+| `eval_answer_quality.py` | Evaluate final answer quality, groundedness, citation support, and hallucination risk |
+
+---
+
+## 7. Project Structure
 
 ```text
 paper-rag-week1/
+  app.py
+  README.md
+  requirements.txt
+  .env.example
+
   data/
     papers/
       *.pdf
-  chroma_db/
+    paper_metadata.json
+    answer_eval_questions.json
+
   src/
-    __pycache__/
-    batch_test.py
     build_index.py
-    eval_retrieval.py
-    load_pdf.py
-    rag_qa.py
-    retrieve.py
-    split_text.py
-    test_llm.py
+    build_paper_catalog.py
+    rag_engineered.py
+    query_router.py
+    bm25_retriever.py
+    reranker.py
+    eval_engineered_rag.py
+    eval_reranker_ablation.py
+    eval_hybrid_retrieval.py
+    eval_query_router.py
+    eval_answer_quality.py
+
   outputs/
-    demo_qa.md
-  README.md
-  .gitignore
+    engineered_rag_eval.md
+    reranker_ablation.md
+    hybrid_retrieval_eval.md
+    query_router_eval.md
+    answer_eval_report.md
+
+  docs/
+    project_showcase.md
+    interview_script.md
 ```
 
 ---
 
-## 3. Main Components
+## 8. How to Run
 
-### `src/test_llm.py`
-
-Tests whether the LLM API can be called successfully.
-
-This is used before running the RAG pipeline to make sure the model interface works correctly.
-
----
-
-### `src/load_pdf.py`
-
-Loads PDF files from:
-
-```text
-data/papers/
-```
-
-Each PDF is parsed into pages, and each page is stored as a document object.
-
----
-
-### `src/split_text.py`
-
-Splits long paper texts into smaller chunks.
-
-Chunking is important because LLMs and embedding models cannot process arbitrarily long documents at once.
-
----
-
-### `src/build_index.py`
-
-Builds a Chroma vector index from the PDF chunks.
-
-Main steps:
-
-```text
-load PDFs
-    ↓
-clean extracted text
-    ↓
-split documents into chunks
-    ↓
-generate embeddings
-    ↓
-save Chroma vector index
-```
-
-The vector index is saved to:
-
-```text
-chroma_db/
-```
-
----
-
-### `src/retrieve.py`
-
-Retrieves relevant chunks for a given question.
-
-This file is mainly used to test whether the retriever can find useful contexts from the vector database.
-
----
-
-### `src/rag_qa.py`
-
-Runs the full RAG-QA pipeline:
-
-```text
-question
-    ↓
-retrieve relevant chunks
-    ↓
-construct context
-    ↓
-call LLM
-    ↓
-generate answer
-    ↓
-show retrieved sources
-```
-
----
-
-### `src/batch_test.py`
-
-Runs multiple questions automatically.
-
-This can be used later for batch evaluation.
-
----
-
-### `src/eval_retrieval.py`
-
-Evaluates retrieval performance.
-
-This file will be more useful in the next stage, when retrieval quality is systematically tested.
-
----
-
-## 4. Environment Setup
-
-Activate the conda environment:
+### Step 1: Activate Environment
 
 ```powershell
 conda activate rag-week1
 ```
 
-Install the required packages:
-
-```powershell
-pip install langchain langchain-community langchain-chroma langchain-huggingface sentence-transformers chromadb pypdf
-```
-
-If using OpenAI-compatible APIs, also install:
-
-```powershell
-pip install openai python-dotenv
-```
-
----
-
-## 5. Data Preparation
-
-Put all PDF papers into:
-
-```text
-data/papers/
-```
-
-Example:
-
-```text
-data/
-  papers/
-    AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf
-    DetectGPT Zero-Shot Machine-Generated Text Detection using Probability Curvature.pdf
-    Release strategies and the social impacts of Language Models.pdf
-```
-
-Do not put PDF files into the `src/` folder.
-
-The `src/` folder should only contain Python code.
-
----
-
-## 6. How to Run
-
-All commands should be run from the project root directory:
-
-```powershell
-cd C:\Users\22168\Desktop\Working\LLM Week8\paper-rag-week1
-```
-
----
-
-### Step 1: Test the LLM API
-
-```powershell
-python src/test_llm.py
-```
-
-This checks whether the LLM API is working.
-
----
-
-### Step 2: Build the Vector Index
+### Step 2: Build Chunk-level Index
 
 ```powershell
 python src/build_index.py
 ```
 
-This command will:
-
-```text
-1. Load all PDFs from data/papers/
-2. Extract text from PDF pages
-3. Split text into chunks
-4. Generate embeddings
-5. Store vectors in Chroma
-```
-
-After this step, the vector database will be saved in:
-
-```text
-chroma_db/
-```
-
----
-
-### Step 3: Test Retrieval
+### Step 3: Build Paper-level Catalog
 
 ```powershell
-python src/retrieve.py
+python src/build_paper_catalog.py
 ```
 
-This checks whether the retriever can find relevant chunks for a question.
-
----
-
-### Step 4: Run RAG Question Answering
+### Step 4: Run Command-line RAG
 
 ```powershell
-python src/rag_qa.py
+python src/rag_engineered.py
 ```
 
-Example question:
+### Step 5: Run Streamlit Demo
+
+```powershell
+streamlit run app.py
+```
+
+Then open:
 
 ```text
-What is the main contribution of AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees? Please answer based on the abstract and introduction.
+http://localhost:8501
 ```
 
 ---
 
-## 7. Example Demo
-
-### Question
+## 9. Example Questions
 
 ```text
-What is the main contribution of AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees? Please answer based on the abstract and introduction.
+What AI-generated text detection methods are discussed in these papers?
 ```
 
-### Answer
-
 ```text
-The main contribution of AdaDetectGPT is an adaptive LLM-generated text detector that leverages external training data to learn a witness function, while using normal approximation for false negative rate control, thereby providing statistical guarantees not present in prior logits-based detectors.
+How does AdaDetectGPT work?
 ```
 
-### Explanation
-
 ```text
-The abstract and introduction state that existing logits-based detectors are sub-optimal. AdaDetectGPT improves upon them by adaptively learning a witness function from training data to enhance detection effectiveness. It builds on Fast-DetectGPT and introduces statistical control for false negative rate, giving the method statistical guarantees.
+How does DetectGPT detect machine-generated text?
 ```
 
-### Retrieved Sources
+```text
+Which methods provide statistical guarantees for AI-generated text detection?
+```
 
 ```text
-[Source 1] AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf, page 0, chunk 209
-[Source 2] AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf, page 1, chunk 213
-[Source 3] AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees.pdf, page 41, chunk 368
+What is the difference between DetectGPT and AdaDetectGPT?
 ```
 
 ---
 
-## 8. Current Progress
+## 10. Current Limitations
 
-The following parts have been completed:
-
-- PDF loading
-- Text extraction
-- Text chunking
-- Embedding generation
-- Chroma vector database construction
-- Basic semantic retrieval
-- RAG-based question answering
-- Source display
-
-The current RAG pipeline can answer questions based on retrieved paper chunks.
+- The paper catalog still depends partly on manual metadata.
+- Query routing is currently rule-based.
+- Section-level metadata is still coarse.
+- Answer evaluation uses LLM-as-a-judge and should be treated as approximate.
+- The current Streamlit demo is read-only and does not yet support uploading new PDFs from the UI.
 
 ---
 
-## 9. Current Limitations
-
-The current system is still a basic RAG prototype.
-
-Main limitations:
-
-1. The retriever may return noisy chunks.
-2. The system does not yet support selecting a specific paper before asking questions.
-3. The system retrieves from all papers at once.
-4. The system does not yet include reranking.
-5. The system does not yet include systematic retrieval evaluation.
-6. Some PDF pages may contain parsing warnings or noisy extracted text.
-7. The current answer quality depends strongly on retrieval quality.
-
-For example, if the question is too vague, such as:
-
-```text
-What is the main contribution of this paper?
-```
-
-the system may not know which paper the user refers to.
-
-A better question is:
-
-```text
-What is the main contribution of AdaDetectGPT Adaptive Detection of LLM-Generated Text with Statistical Guarantees? Please answer based on the abstract and introduction.
-```
-
----
-
-## 10. Notes on PDF Parsing
-
-Some PDFs may show warnings such as:
-
-```text
-Ignoring wrong pointing object
-```
-
-This is usually a PDF parsing warning caused by non-standard internal PDF objects.
-
-It is not necessarily fatal as long as valid text chunks are created.
-
-If a PDF produces empty text or unreadable chunks, possible solutions include:
-
-1. Re-download the PDF.
-2. Re-save the PDF using `Print to PDF`.
-3. Use another PDF loader such as `PyMuPDFLoader`.
-4. Temporarily remove problematic PDFs from `data/papers/`.
-
----
-
-## 11. Notes on Embedding Errors
-
-Some chunks may fail during embedding because of noisy PDF text, hidden characters, or abnormal extracted content.
-
-The current implementation can skip problematic chunks and continue building the vector index.
-
-If bad chunks are skipped, they will be recorded in:
-
-```text
-outputs/bad_chunks.txt
-```
-
----
-
-## 12. Next Steps
-
-The next stage is retrieval optimization.
+## 11. Future Work
 
 Planned improvements:
 
-1. Add paper-level source filtering.
-2. Allow the user to choose one paper before asking questions.
-3. Compare different `top_k` values.
-4. Compare different chunk sizes and overlaps.
-5. Add query rewriting.
-6. Add reranking.
-7. Add retrieval evaluation.
-8. Add answer citation checking.
-9. Build a simple Streamlit or Gradio interface.
-
----
-
-## 13. Week 1 Summary
-
-In Week 1, I completed a basic RAG system for academic paper question answering.
-
-The system can:
-
-```text
-load PDF papers
-split them into chunks
-build a Chroma vector index
-retrieve relevant contexts
-generate answers using an LLM
-display retrieved sources
-```
-
-This completes the first-stage RAG pipeline.
-
-The next focus is improving retrieval quality and making the system more reliable for multi-paper question answering.
+- Add PDF upload and automatic indexing in the Streamlit app.
+- Add section-aware chunk labeling.
+- Improve paper catalog with automatic method-name extraction.
+- Add more robust query routing.
+- Add citation-level verification.
+- Add benchmark-style evaluation with gold answers.
+- Deploy the app online.
