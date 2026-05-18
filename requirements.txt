@@ -10,3 +10,4 @@ chromadb
 langchain-huggingface
 sentence-transformers
 rank-bm25
+streamlit

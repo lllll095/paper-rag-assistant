@@ -142,7 +142,7 @@ class QueryRouter:
                 retrieval_mode="global",
                 paper_k=6,
                 chunk_k=10,
-                max_per_source=3,
+                max_per_source=6,
                 reason="The question asks for theoretical/statistical evidence.",
             )
 
@@ -152,7 +152,7 @@ class QueryRouter:
                 retrieval_mode="global",
                 paper_k=6,
                 chunk_k=10,
-                max_per_source=3,
+                max_per_source=6,
                 reason="The question asks about experiments, datasets, or results.",
             )
 
@@ -162,7 +162,7 @@ class QueryRouter:
                 retrieval_mode="auto",
                 paper_k=4,
                 chunk_k=8,
-                max_per_source=3,
+                max_per_source=6,
                 reason="The question asks about how a method works.",
             )
 

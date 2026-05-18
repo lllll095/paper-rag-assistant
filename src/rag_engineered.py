@@ -625,7 +625,7 @@ Content:
     # Answer generation
     # ------------------------------------------------------------------
 
-    def answer_question(self, question, paper_k=4, chunk_k=8, show_debug=True):
+    def answer_question(self, question, paper_k=None, chunk_k=None, show_debug=True):
         docs, retrieval_info = self.retrieve(
             query=question,
             paper_k=paper_k,
@@ -722,8 +722,6 @@ def main():
 
     answer, docs, retrieval_info = rag.answer_question(
         question=question,
-        paper_k=4,
-        chunk_k=8,
         show_debug=True,
     )
 
