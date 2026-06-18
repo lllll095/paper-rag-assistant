@@ -1,0 +1,36 @@
+{
+  "mode": "hybrid",
+  "args": {
+    "mode": "hybrid",
+    "dense_model": "BAAI/bge-small-en-v1.5",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "top_k": 10,
+    "rerank_top_n": 50,
+    "alpha": 0.6,
+    "limit_queries": 0,
+    "output_dir": "eval/results"
+  },
+  "metrics": {
+    "hit@1": 0.6266666666666667,
+    "precision@1": 0.6266666666666667,
+    "recall@1": 0.6042777777777777,
+    "mrr@1": 0.6266666666666667,
+    "ndcg@1": 0.6266666666666667,
+    "hit@3": 0.7666666666666667,
+    "precision@3": 0.26666666666666666,
+    "recall@3": 0.7457777777777779,
+    "mrr@3": 0.6883333333333334,
+    "ndcg@3": 0.6970071840947074,
+    "hit@5": 0.8133333333333334,
+    "precision@5": 0.17466666666666664,
+    "recall@5": 0.7985,
+    "mrr@5": 0.6995,
+    "ndcg@5": 0.7194765834430886,
+    "hit@10": 0.88,
+    "precision@10": 0.09633333333333333,
+    "recall@10": 0.8657222222222223,
+    "mrr@10": 0.7086084656084656,
+    "ndcg@10": 0.7429201300276422,
+    "num_queries": 300.0
+  }
+}

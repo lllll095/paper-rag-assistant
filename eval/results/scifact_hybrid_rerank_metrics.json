@@ -1,0 +1,36 @@
+{
+  "mode": "hybrid_rerank",
+  "args": {
+    "mode": "hybrid_rerank",
+    "dense_model": "BAAI/bge-small-en-v1.5",
+    "reranker_model": "C:\\Users\\22168\\.cache\\huggingface\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\c5ee24cb16019beea0893ab7796b1df96625c6b8",
+    "top_k": 10,
+    "rerank_top_n": 50,
+    "alpha": 0.6,
+    "limit_queries": 0,
+    "output_dir": "eval/results"
+  },
+  "metrics": {
+    "hit@1": 0.58,
+    "precision@1": 0.58,
+    "recall@1": 0.553611111111111,
+    "mrr@1": 0.58,
+    "ndcg@1": 0.58,
+    "hit@3": 0.7233333333333334,
+    "precision@3": 0.25,
+    "recall@3": 0.6949444444444445,
+    "mrr@3": 0.6422222222222221,
+    "ndcg@3": 0.6456027663513692,
+    "hit@5": 0.7666666666666667,
+    "precision@5": 0.16466666666666663,
+    "recall@5": 0.7448888888888889,
+    "mrr@5": 0.6525555555555556,
+    "ndcg@5": 0.6668661959845389,
+    "hit@10": 0.8466666666666667,
+    "precision@10": 0.09333333333333332,
+    "recall@10": 0.8322222222222222,
+    "mrr@10": 0.6625462962962962,
+    "ndcg@10": 0.6959921883852337,
+    "num_queries": 300.0
+  }
+}
