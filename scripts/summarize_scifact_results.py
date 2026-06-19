@@ -9,6 +9,7 @@ FILES = {
     "Dense": "scifact_dense_metrics.json",
     "Hybrid": "scifact_hybrid_metrics.json",
     "Hybrid + Reranker": "scifact_hybrid_rerank_metrics.json",
+    "Project EngineeredRAG": "scifact_project_retriever_paperk50_chunkk10_metrics.json",
 }
 
 

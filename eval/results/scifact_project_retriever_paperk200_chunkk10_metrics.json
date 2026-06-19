@@ -1,0 +1,35 @@
+{
+  "mode": "project_engineered_rag",
+  "args": {
+    "top_k": 10,
+    "paper_k": 200,
+    "chunk_k": 10,
+    "limit_queries": 0,
+    "chunk_db_dir": "C:\\Users\\22168\\Desktop\\Working\\paper-rag-assistant\\eval\\scifact_project_index\\chunk_db",
+    "catalog_db_dir": "C:\\Users\\22168\\Desktop\\Working\\paper-rag-assistant\\eval\\scifact_project_index\\paper_catalog_db",
+    "output_dir": "C:\\Users\\22168\\Desktop\\Working\\paper-rag-assistant\\eval\\results"
+  },
+  "metrics": {
+    "hit@1": 0.58,
+    "precision@1": 0.58,
+    "recall@1": 0.553611111111111,
+    "mrr@1": 0.58,
+    "ndcg@1": 0.58,
+    "hit@3": 0.71,
+    "precision@3": 0.2477777777777777,
+    "recall@3": 0.6841111111111111,
+    "mrr@3": 0.638888888888889,
+    "ndcg@3": 0.6416130079064924,
+    "hit@5": 0.7666666666666667,
+    "precision@5": 0.1653333333333333,
+    "recall@5": 0.746,
+    "mrr@5": 0.6522222222222221,
+    "ndcg@5": 0.667473675414265,
+    "hit@10": 0.8233333333333334,
+    "precision@10": 0.09066666666666666,
+    "recall@10": 0.8072222222222222,
+    "mrr@10": 0.6593822751322751,
+    "ndcg@10": 0.6881478524360599,
+    "num_queries": 300.0
+  }
+}
