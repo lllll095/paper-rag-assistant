@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 *.pyc
 
 .env
@@ -7,6 +7,21 @@
 
 chroma_db/
 paper_catalog_db/
+chunk_db/
 data/papers/
+models/
 
 outputs/bad_chunks.txt
+
+workspace/
+eval/datasets/
+eval/results/
+eval/*_index/
+eval/qasper_raw/
+eval/qasper_inspection/
+eval/scifact_project_index/
+eval/qasper_project_index/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
