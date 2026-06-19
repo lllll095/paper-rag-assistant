@@ -1,0 +1,23 @@
+{
+  "task": "qasper_evidence_retrieval",
+  "mode": "oracle_paper",
+  "split": "dev",
+  "args": {
+    "split": "dev",
+    "limit_examples": 0,
+    "top_k": 8,
+    "paper_k": 20,
+    "chunk_k": 8,
+    "match_threshold": 0.75,
+    "debug_examples": 3,
+    "oracle_paper": true
+  },
+  "metrics": {
+    "num_examples": 1553.0,
+    "paper_hit@k": 1.0,
+    "evidence_hit@k": 0.7868641339343206,
+    "highlighted_hit@k": 0.7276239536381197,
+    "avg_best_evidence_score": 0.8304084355038012,
+    "avg_best_highlighted_score": 0.7989138286539336
+  }
+}

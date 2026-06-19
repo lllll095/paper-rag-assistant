@@ -1,0 +1,21 @@
+{
+  "task": "qasper_evidence_retrieval",
+  "split": "dev",
+  "args": {
+    "split": "dev",
+    "limit_examples": 20,
+    "top_k": 8,
+    "paper_k": 20,
+    "chunk_k": 8,
+    "match_threshold": 0.75,
+    "debug_examples": 3
+  },
+  "metrics": {
+    "num_examples": 20.0,
+    "paper_hit@k": 0.2,
+    "evidence_hit@k": 0.2,
+    "highlighted_hit@k": 0.2,
+    "avg_best_evidence_score": 0.3184902374843766,
+    "avg_best_highlighted_score": 0.35785560123268073
+  }
+}

@@ -268,6 +268,55 @@ What is the difference between DetectGPT and AdaDetectGPT?
 
 ---
 
+## Evaluation
+
+We evaluate the retrieval pipeline on BEIR/SciFact with both module-level and project-level settings. The evaluation covers BM25, Dense Retrieval, Hybrid Retrieval, Hybrid + Cross-Encoder Reranker, and the full Project EngineeredRAG pipeline.
+
+### SciFact Retrieval Evaluation
+
+| Method | Recall@10 | MRR@10 | nDCG@10 |
+|---|---:|---:|---:|
+| BM25 | 0.7757 | 0.6184 | 0.6523 |
+| Dense | 0.8452 | 0.6845 | 0.7200 |
+| Hybrid | **0.8657** | **0.7086** | **0.7429** |
+| Hybrid + Reranker | 0.8322 | 0.6625 | 0.6960 |
+| Project EngineeredRAG | 0.8146 | 0.6625 | 0.6932 |
+
+Hybrid retrieval performs best on SciFact, showing that lexical and semantic retrieval are complementary for scientific document retrieval. BM25 helps with exact scientific terms, while Dense Retrieval captures semantic similarity.
+
+The full Project EngineeredRAG pipeline achieves Recall@10 = 0.8146, MRR@10 = 0.6625, and nDCG@10 = 0.6932. Although it is slightly lower than flat Hybrid Retrieval, this is expected because EngineeredRAG uses a hierarchical long-paper RAG pipeline with paper-level routing, chunk-level retrieval, candidate merging, and reranking. This project-level evaluation demonstrates that the actual Paper RAG Assistant retrieval pipeline can be connected to a standard IR benchmark and evaluated reproducibly.
+
+### Project-level Ablation
+
+We further evaluate the full Project EngineeredRAG pipeline with different `paper_k` and `chunk_k` settings.
+
+| Setting | Recall@10 | MRR@10 | nDCG@10 |
+|---|---:|---:|---:|
+| `paper_k=50`, `chunk_k=10` | **0.8146** | **0.6625** | **0.6932** |
+| `paper_k=100`, `chunk_k=10` | 0.8046 | 0.6580 | 0.6866 |
+| `paper_k=200`, `chunk_k=10` | 0.8072 | 0.6594 | 0.6881 |
+| `paper_k=50`, `chunk_k=20` | **0.8146** | **0.6625** | **0.6932** |
+
+Increasing `paper_k` from 50 to 100 or 200 does not improve the final retrieval metrics. Increasing `chunk_k` from 10 to 20 also produces nearly identical results. This suggests that the bottleneck is not simply the number of retrieved candidate papers or chunks, but rather the ranking behavior of the full hierarchical pipeline and the task mismatch between SciFact's short-document retrieval setting and the project's original long-PDF RAG setting.
+
+### QASPER Long-Paper Evidence Retrieval
+
+We also evaluate the long-paper evidence retrieval ability of Paper RAG Assistant on QASPER. Unlike SciFact, QASPER is closer to the academic paper QA setting, where each question is associated with a specific scientific paper and annotated supporting evidence.
+
+We evaluate an oracle-paper setting, where the gold paper is given and the system retrieves supporting chunks from that paper.
+
+| Setting | Evidence Hit@k | Highlighted Evidence Hit@k | Avg. Best Evidence Score |
+|---|---:|---:|---:|
+| QASPER Oracle-Paper Evidence Retrieval | **0.7869** | **0.7276** | **0.8304** |
+
+Over 1,553 QASPER dev examples, the system retrieves annotated supporting evidence in the top-k chunks for 78.69% of examples and highlighted evidence for 72.76% of examples. This shows that Paper RAG Assistant can effectively locate supporting evidence within long scientific papers.
+
+The end-to-end open-corpus setting is more challenging because many QASPER questions are paper-specific and under-specified without the target paper context. Therefore, QASPER is mainly used here as a long-paper within-document evidence retrieval benchmark.
+
+
+
+---
+
 ## 10. Current Limitations
 
 - The paper catalog still depends partly on manual metadata.
